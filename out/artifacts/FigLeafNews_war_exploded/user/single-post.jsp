@@ -82,7 +82,7 @@
                                         <a href="#" class="post-title">
                                             <h6>Dolor sit amet, consectetur adipiscing elit. Nam eu metus sit amet odio sodales placer. Sed varius leo ac...</h6>
                                         </a>
-                            
+
                                     </div>
                                 </div>
                             </div>
