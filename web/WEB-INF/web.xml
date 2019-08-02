@@ -11,4 +11,14 @@
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SinglePostController</servlet-name>
+        <servlet-class>controller.user.SinglePostController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SinglePostController</servlet-name>
+        <url-pattern>/post</url-pattern>
+    </servlet-mapping>
 </web-app>
