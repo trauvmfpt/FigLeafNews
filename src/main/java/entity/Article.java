@@ -9,6 +9,7 @@ import com.googlecode.objectify.annotation.Load;
 @Entity
 public class Article {
     @Id
+    private long id;
     private String url;
     private String title;
     private String description;
@@ -187,10 +188,10 @@ public class Article {
             article.setContent(content);
             article.setAuthor(author);
             article.setSourceId(sourceId);
-            article.setCreatedAtMLS(createdAtMLS);
-            article.setUpdatedAtMLS(updatedAtMLS);
+            article.setCreatedAtMLS(System.currentTimeMillis());
+            article.setUpdatedAtMLS(System.currentTimeMillis());
             article.setDeletedAtMLS(deletedAtMLS);
-            article.setStatus(status);
+            article.setStatus(1);
             article.category = this.category;
             return article;
         }
