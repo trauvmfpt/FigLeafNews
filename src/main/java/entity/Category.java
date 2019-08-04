@@ -3,6 +3,8 @@ package entity;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 
+import java.util.Calendar;
+
 @Entity
 public class Category {
     @Id
@@ -77,6 +79,13 @@ public class Category {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public Category() {
+        this.id = Calendar.getInstance().getTimeInMillis();
+        this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
+        this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
+        this.status = 1;
     }
 
     public static final class Builder {
