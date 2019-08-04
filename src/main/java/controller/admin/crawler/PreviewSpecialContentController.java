@@ -1,4 +1,4 @@
-package controller.admin;
+package controller.admin.crawler;
 
 import com.google.gson.Gson;
 import org.json.JSONObject;
