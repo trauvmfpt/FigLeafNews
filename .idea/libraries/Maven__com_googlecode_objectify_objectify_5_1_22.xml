@@ -3,6 +3,7 @@
     <properties maven-id="com.googlecode.objectify:objectify:5.1.22" />
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.22/objectify-5.1.22.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.22/objectify-5.1.22-javadoc.jar!/" />
