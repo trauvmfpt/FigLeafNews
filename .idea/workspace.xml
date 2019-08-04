@@ -7,129 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14dc713c-b48c-46ff-a9f5-3168c3a96cf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/user/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/9dcd260a98b05df5e2bbaebb993f2e918e16ad1d/_fonts.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/9dcd260a98b05df5e2bbaebb993f2e918e16ad1d/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/9dcd260a98b05df5e2bbaebb993f2e918e16ad1d/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/9dcd260a98b05df5e2bbaebb993f2e918e16ad1d/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/9dcd260a98b05df5e2bbaebb993f2e918e16ad1d/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/b687762b7660b1f71ae40e600add14c590cfdbc7/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/b687762b7660b1f71ae40e600add14c590cfdbc7/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/b687762b7660b1f71ae40e600add14c590cfdbc7/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/b687762b7660b1f71ae40e600add14c590cfdbc7/_variables.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/b687762b7660b1f71ae40e600add14c590cfdbc7/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/cd34cfe2239c57be653ecbef896fb3750f9e6f5b/_fonts.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/cd34cfe2239c57be653ecbef896fb3750f9e6f5b/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/cd34cfe2239c57be653ecbef896fb3750f9e6f5b/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/cd34cfe2239c57be653ecbef896fb3750f9e6f5b/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/cd34cfe2239c57be653ecbef896fb3750f9e6f5b/_variables.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/cd34cfe2239c57be653ecbef896fb3750f9e6f5b/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/eb65a9acf275cb72706472a84a7409ec6f3ac36a/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/eb65a9acf275cb72706472a84a7409ec6f3ac36a/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/eb65a9acf275cb72706472a84a7409ec6f3ac36a/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/eb65a9acf275cb72706472a84a7409ec6f3ac36a/_variables.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/eb65a9acf275cb72706472a84a7409ec6f3ac36a/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/f8ae1aaaaa28c76535223f26d46c4b367f4bf351/_fonts.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/f8ae1aaaaa28c76535223f26d46c4b367f4bf351/_mixin.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/f8ae1aaaaa28c76535223f26d46c4b367f4bf351/_responsive.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/f8ae1aaaaa28c76535223f26d46c4b367f4bf351/_theme_color.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/.sass-cache/f8ae1aaaaa28c76535223f26d46c4b367f4bf351/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/classy-nav.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/custom-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/nice-select.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/classy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/classy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/classy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/classy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/footer-add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/hero-add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/t8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/video1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/video2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/bg-img/video3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/core-img/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/core-img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/core-img/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/img/core-img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/js/active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/js/bootstrap/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/js/google-map/map-active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/js/plugins/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/scss/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/scss/_mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/scss/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/scss/_theme_color.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/user/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FigLeafNews_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FigLeafNews_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/language.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/language_kr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/language_vi.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FigLeafNews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FigLeafNews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/user/single-post.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/user/single-post.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/single-post.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/single-post.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,15 +32,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/Article.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -161,29 +39,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/user/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="357">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/SinglePostController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/master.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -206,6 +119,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -214,6 +128,11 @@
     <findStrings>
       <find>logo.</find>
       <find>.gif</find>
+      <find>.jpg</find>
+      <find>img/</find>
+      <find>&quot;img/</find>
+      <find>392</find>
+      <find>.pn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,9 +144,17 @@
         <option value="$PROJECT_DIR$/src/main/java/entity/Article.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/user/HomeController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" />
         <option value="$PROJECT_DIR$/web/user/home.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/user/SinglePostController.java" />
+        <option value="$PROJECT_DIR$/web/user/single-post.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/language.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/language_kr.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/util.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" />
       </list>
     </option>
   </component>
@@ -238,7 +165,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
     <option name="y" value="24" />
     <option name="width" value="1346" />
@@ -259,6 +186,40 @@
             <path>
               <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
               <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
@@ -408,12 +369,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564662979719</updated>
       <workItem from="1564662987523" duration="165000" />
-      <workItem from="1564746210171" duration="7148000" />
+      <workItem from="1564746210171" duration="10260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7313000" />
+    <option name="totallyTimeSpent" value="10425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -427,7 +388,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -526,27 +487,89 @@
     <entry file="file://$PROJECT_DIR$/web/user/active.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/language_kr.properties">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/master.tag">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/language_vi.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/language.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/single-post.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/SinglePostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/master.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
         </state>
       </provider>
     </entry>

@@ -9,8 +9,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <!-- Favicon -->
     <link rel="icon" href="/user/img/core-img/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="/user/style.css">
@@ -36,6 +43,7 @@
                             <div class="login d-flex">
                                 <a href="#">Login</a>
                                 <a href="#">Register</a>
+                                <i class="united states flag"></i>
                             </div>
                             <!-- Search Form -->
                             <div class="search-form">
@@ -44,7 +52,9 @@
                                     <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                                 </form>
                             </div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -322,5 +332,9 @@
     <script src="/user/js/plugins/plugins.js"></script>
     <!-- Active js -->
     <script src="/user/js/active.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
 </body>
 </html>
