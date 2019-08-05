@@ -1,5 +1,7 @@
 package controller;
 
+import seeder.ArticleSeeder;
+import seeder.CategorySeeder;
 import util.MyUtil;
 
 import javax.servlet.ServletException;
@@ -40,6 +42,11 @@ public class UnitTestController  extends HttpServlet {
 //        File newPic = new File(uploadPath, newFileName);
 //        Files.copy(fileContent,newPic.toPath());
 //        resp.sendRedirect("/" + pathname + newFileName);
-            resp.getWriter().println(req.getPathInfo().toString());
+
+//       Uncomment to Run Cate Seeder
+//        CategorySeeder.run();
+//        Uncomment to Run Cate Seeder
+        ArticleSeeder.run();
+
     }
 }
