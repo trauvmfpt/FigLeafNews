@@ -20,25 +20,25 @@ import java.util.Locale;
 import java.util.regex.Pattern;
 
 //@WebServlet("/upload")
-@MultipartConfig(location = "../Rss")
+@MultipartConfig
 public class UnitTestController  extends HttpServlet {
 
     private String pathname = "picture/";
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Part filePart = req.getPart("file"); // Retrieves <input type="file" name="file">
-        String fileName = Paths.get(filePart.getSubmittedFileName()).getFileName().toString(); // MSIE fix.
-        InputStream fileContent = filePart.getInputStream();
-        // ... (do your job here)
-        File uploads = new File(pathname);
-        String uploadPath = getServletContext().getRealPath("")
-                + File.separator + pathname;
-
-
-        String newFileName = Calendar.getInstance().getTimeInMillis() + "." + MyUtil.getInstance().getFileExtension(fileName);
-
-        File newPic = new File(uploadPath, newFileName);
-        Files.copy(fileContent,newPic.toPath());
-        resp.sendRedirect("/" + pathname + newFileName);
+//        Part filePart = req.getPart("file"); // Retrieves <input type="file" name="file">
+//        String fileName = Paths.get(filePart.getSubmittedFileName()).getFileName().toString(); // MSIE fix.
+//        InputStream fileContent = filePart.getInputStream();
+//        // ... (do your job here)
+//        File uploads = new File(pathname);
+//        String uploadPath = getServletContext().getRealPath("")
+//                + File.separator + pathname;
+//
+//
+//        String newFileName = Calendar.getInstance().getTimeInMillis() + "." + MyUtil.getInstance().getFileExtension(fileName);
+//
+//        File newPic = new File(uploadPath, newFileName);
+//        Files.copy(fileContent,newPic.toPath());
+//        resp.sendRedirect("/" + pathname + newFileName);
     }
 }

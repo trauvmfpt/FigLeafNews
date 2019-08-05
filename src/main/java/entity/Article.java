@@ -11,6 +11,7 @@ import java.util.Calendar;
 @Entity
 public class Article {
     @Id
+    private long id;
     private String url;
     private String title;
     private String description;
@@ -155,6 +156,10 @@ public class Article {
         private int status;
 
         private Builder() {
+            this.id = Calendar.getInstance().getTimeInMillis();
+            this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.status = 0;
         }
 
         public static Builder anArticle() {

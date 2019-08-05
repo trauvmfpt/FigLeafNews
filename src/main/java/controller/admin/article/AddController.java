@@ -7,15 +7,23 @@ import entity.Category;
 import util.MyUtil;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
+import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Calendar;
 import java.util.logging.Logger;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
-
+@MultipartConfig
 public class AddController extends HttpServlet {
+    private String pathname = "picture/";
     private static final Logger LOGGER = Logger.getLogger(AddController.class.getSimpleName());
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -37,11 +45,33 @@ public class AddController extends HttpServlet {
             LOGGER.warning("Can not parse categoryId.");
             LOGGER.warning(ex.getMessage());
         }
+//        Xử lý ảnh
+        Part filePart = req.getPart("file"); // Retrieves <input type="file" name="file">
+        String fileName = Paths.get(filePart.getSubmittedFileName()).getFileName().toString(); // MSIE fix.
+        InputStream fileContent = filePart.getInputStream();
+
+//        Lấy đường dẫn ảnh để lưu
+        String uploadPath = getServletContext().getRealPath("")
+                + File.separator + pathname;
+//      Tạo tên mới cho file
+        String newFileName = Calendar.getInstance().getTimeInMillis() + "." + MyUtil.getInstance().getFileExtension(fileName);
+
+        File newPic = new File(uploadPath, newFileName);
+//        Lưu Ảnh
+        try {
+            Files.copy(fileContent,newPic.toPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+//        End xử lý ảnh
+
         Article article = Article.Builder.anArticle()
                 .withUrl(url)
                 .withTitle(title)
                 .withDescription(description)
                 .withContent(content)
+                .withThumbnail("/" + pathname + newFileName)
                 .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .build();
         ofy().save().entity(article).now();
