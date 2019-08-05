@@ -9,7 +9,6 @@ import com.googlecode.objectify.annotation.Load;
 @Entity
 public class Article {
     @Id
-    private long id;
     private String url;
     private String title;
     private String description;
