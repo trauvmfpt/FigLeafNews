@@ -22,6 +22,18 @@
         <url-pattern>/post</url-pattern>
     </servlet-mapping>
 
+<!-- Route for Andmin   -->
+    <servlet>
+        <servlet-name>AddCategoryController</servlet-name>
+        <servlet-class>controller.admin.category.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCategoryController</servlet-name>
+        <url-pattern>/admin/category/add</url-pattern>
+    </servlet-mapping>
+
+<!--    End Route for Admin-->
+
 
     <filter>
         <filter-name>LanguageFilter</filter-name>
