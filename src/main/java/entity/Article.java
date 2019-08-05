@@ -6,6 +6,8 @@ import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 import com.googlecode.objectify.annotation.Load;
 
+import java.util.Calendar;
+
 @Entity
 public class Article {
     @Id
@@ -15,6 +17,7 @@ public class Article {
     private String description;
     private String content;
     private String author;
+    private String thumbnail;
     private long sourceId;
     private long createdAtMLS;
     private long updatedAtMLS;
@@ -24,6 +27,37 @@ public class Article {
     @Index
     @Load
     Ref<Category> category;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getThumbnail() {
+        return thumbnail;
+    }
+
+    public void setThumbnail(String thumbnail) {
+        this.thumbnail = thumbnail;
+    }
+
+    public Ref<Category> getCategory() {
+        return category;
+    }
+
+    public void setCategory(Ref<Category> category) {
+        this.category = category;
+    }
+
+    public Article() {
+        this.id = Calendar.getInstance().getTimeInMillis();
+        this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
+        this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
+        this.status = 0;
+    }
 
     public String getUrl() {
         return url;
@@ -105,13 +139,16 @@ public class Article {
         this.status = status;
     }
 
+
     public static final class Builder {
         Ref<Category> category;
+        private long id;
         private String url;
         private String title;
         private String description;
         private String content;
         private String author;
+        private String thumbnail;
         private long sourceId;
         private long createdAtMLS;
         private long updatedAtMLS;
@@ -123,6 +160,11 @@ public class Article {
 
         public static Builder anArticle() {
             return new Builder();
+        }
+
+        public Builder withId(long id) {
+            this.id = id;
+            return this;
         }
 
         public Builder withUrl(String url) {
@@ -147,6 +189,11 @@ public class Article {
 
         public Builder withAuthor(String author) {
             this.author = author;
+            return this;
+        }
+
+        public Builder withThumbnail(String thumbnail) {
+            this.thumbnail = thumbnail;
             return this;
         }
 
@@ -182,17 +229,19 @@ public class Article {
 
         public Article build() {
             Article article = new Article();
+            article.setId(id);
             article.setUrl(url);
             article.setTitle(title);
             article.setDescription(description);
             article.setContent(content);
             article.setAuthor(author);
+            article.setThumbnail(thumbnail);
             article.setSourceId(sourceId);
-            article.setCreatedAtMLS(System.currentTimeMillis());
-            article.setUpdatedAtMLS(System.currentTimeMillis());
+            article.setCreatedAtMLS(createdAtMLS);
+            article.setUpdatedAtMLS(updatedAtMLS);
             article.setDeletedAtMLS(deletedAtMLS);
-            article.setStatus(1);
-            article.category = this.category;
+            article.setStatus(status);
+            article.setCategory(category);
             return article;
         }
     }
