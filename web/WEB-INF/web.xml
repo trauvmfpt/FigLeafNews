@@ -12,6 +12,24 @@
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AddController</servlet-name>
+        <servlet-class>controller.admin.article.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddController</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListController</servlet-name>
+        <servlet-class>controller.admin.article.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListController</servlet-name>
+        <url-pattern>/admin/article/list</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>SinglePostController</servlet-name>

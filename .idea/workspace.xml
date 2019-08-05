@@ -7,19 +7,140 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14dc713c-b48c-46ff-a9f5-3168c3a96cf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/language.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/language_kr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/language_vi.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/admin-master.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/custom-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/common-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/write-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/Gruntfile.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/jekyll.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/lib/simditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/CNAME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/button.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/configs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/events.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/methods.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/doc-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/tour.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-demo.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-download.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-form.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/function.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/highlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/mobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/fork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/title@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/dompurify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/mobilecheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-doc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-download.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/simditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/uploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/simditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-config.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-dev-env.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-event.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-method.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-usage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/extension.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/alignment-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/bold-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/code-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/font-scale-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/table-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/title-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/core-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/formatter-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/indentation-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/alignment-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/bold-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/code-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/font-scale-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/table-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/title-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/core-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/formatter-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/indentation-spec.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/util.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/alignment.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/blockquote.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/bold.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/button.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/code.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/color.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/font-scale.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/hr.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/image.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/indent.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/italic.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/link.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/list.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/outdent.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/popover.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/strikethrough.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/table.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/title.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/underline.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/clipboard.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/core.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/formatter.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/i18n.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/indentation.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/inputManager.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/keystroke.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/selection.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/toolbar.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/undoManager.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/util.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/fonticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/simditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/simditor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/umd.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/user/single-post.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/user/single-post.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/single-post.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/single-post.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/master.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/list.jsp" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,134 +150,19 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/SinglePostController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/master.tag">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>logo.</find>
-      <find>.gif</find>
-      <find>.jpg</find>
-      <find>img/</find>
-      <find>&quot;img/</find>
-      <find>392</find>
-      <find>.pn</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/entity/Article.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/user/HomeController.java" />
-        <option value="$PROJECT_DIR$/web/user/home.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/user/SinglePostController.java" />
-        <option value="$PROJECT_DIR$/web/user/single-post.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/language.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/language_kr.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/util.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/tags/master.tag" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -171,93 +177,23 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectId" id="1P0UdiQ3eGQMoBeEXDXedtsWBvx" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FigLeafNews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FigLeafNews" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/admin/resources/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -265,11 +201,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources\js" />
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources\js\master-layout-3-js" />
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\WEB-INF\tags" />
       <recent name="C:\Users\nguye\Desktop\ASM\FigLeafNews\web\WEB-INF" />
       <recent name="C:\Users\nguye\Desktop\ASM\FigLeafNews\web\user" />
-      <recent name="C:\Users\nguye\Desktop\ASM\FigLeafNews\web\WEB-INF\user" />
-      <recent name="G:\JavaWebIntensive\ass\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,8 +228,15 @@
     <configuration name="Google Stackdriver Debug" type="GCPDebug" factoryName="Google Stackdriver Debug">
       <method v="2" />
     </configuration>
-    <configuration name="Google App Engine Deployment" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
-      <method v="2" />
+    <configuration name="Google App Engine Deployment" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment">
+      <deployment type="appengine-artifact-source" name="FigLeafNews:war exploded">
+        <settings />
+      </deployment>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FigLeafNews:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration name="Google App Engine Standard Local Server16" type="gcp-app-engine-local-run" factoryName="Local" APPLICATION_SERVER_NAME="Google App Engine Standard Local Server" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -358,6 +305,16 @@
       <item itemvalue="Google Stackdriver Debug.Google Stackdriver Debug" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -370,209 +327,25 @@
       <updated>1564662979719</updated>
       <workItem from="1564662987523" duration="165000" />
       <workItem from="1564746210171" duration="10260000" />
+      <workItem from="1565010611832" duration="6391000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10425000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Google Cloud Storage" order="5" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="10" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FigLeafNews.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/css/css/mixins/_text-hide.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/scss/bootstrap/mixins/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/style.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/active.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/active.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/language_kr.properties">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/language_vi.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/language.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/single-post.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/filter/LanguageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/LanguageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/user/SinglePostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tags/master.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="119" selection-start-line="15" selection-start-column="119" selection-end-line="15" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

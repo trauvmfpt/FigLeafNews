@@ -1,0 +1,23 @@
+body{
+    font-size: 1.5rem;
+}
+
+.form-control{
+    font-size: 1rem;
+}
+
+.simditor .simditor-toolbar > ul > li > .toolbar-item{
+    height: unset;
+}
+
+.simditor .simditor-toolbar > ul{
+    margin-bottom: 20px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .copyright{
+    float: unset;
+}

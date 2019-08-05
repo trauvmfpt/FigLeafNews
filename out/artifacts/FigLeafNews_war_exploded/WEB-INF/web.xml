@@ -12,6 +12,24 @@
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AddController</servlet-name>
+        <servlet-class>controller.admin.article.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddController</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListController</servlet-name>
+        <servlet-class>controller.admin.article.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListController</servlet-name>
+        <url-pattern>/admin/article/list</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>SinglePostController</servlet-name>
@@ -21,4 +39,38 @@
         <servlet-name>SinglePostController</servlet-name>
         <url-pattern>/post</url-pattern>
     </servlet-mapping>
+
+
+    <filter>
+        <filter-name>LanguageFilter</filter-name>
+        <filter-class>filter.LanguageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LanguageFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>ObjectifyRegisterFilter</filter-name>
+        <filter-class>filter.ObjectifyRegisterFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ObjectifyRegisterFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>CorsFilter</filter-name>
+        <filter-class>filter.CorsFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CorsFilter</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>ObjectifyFilter</filter-name>
+        <filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ObjectifyFilter</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
 </web-app>

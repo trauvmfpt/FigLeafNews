@@ -70,7 +70,7 @@
 
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="index.html"><img src="/user/img/core-img/logo.png" alt=""></a>
+                        <a href="/user/home.jsp"><img src="/user/img/core-img/logo.png" alt=""></a>
                     </div>
 
                     <!-- Navbar Toggler -->
@@ -92,7 +92,7 @@
                                 <li class="active"><a href="index.html">Home</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="/user/home.jsp">Home</a></li>
                                         <li><a href="catagories-post.html">Catagories</a></li>
                                         <li><a href="single-post.html">Single Articles</a></li>
                                         <li><a href="about.html">About Us</a></li>
