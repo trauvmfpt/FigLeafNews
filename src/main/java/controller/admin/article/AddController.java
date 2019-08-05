@@ -63,7 +63,7 @@ public class AddController extends HttpServlet {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        
+
 //        End xử lý ảnh
 
         Article article = Article.Builder.anArticle()
