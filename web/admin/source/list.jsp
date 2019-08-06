@@ -12,7 +12,7 @@
     <jsp:body>
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header text-center">Danh sách nguồn tin</h1>
+                <h1 class="page-header text-center">Danh sách nguồn bài viết</h1>
             </div>
         </div>
         <div class="panel-body">
@@ -22,7 +22,6 @@
                 <thead>
                 <tr>
                     <th style="text-align: center">ID</th>
-                    <th style="text-align: center">Thumbnail</th>
                     <th style="text-align: center">Tên Nguồn</th>
                     <th style="text-align: center">URL</th>
                     <th style="text-align: center">Article Title Selector</th>
@@ -35,9 +34,6 @@
                 <tr class="odd gradeX row-item" id="row-item-{{$item->id}}">
                     <td style="text-align: center">
                         12930129301
-                    </td>
-                    <td style="text-align: center">
-                        <img src="https://images3.alphacoders.com/785/thumb-1920-785576.png" style="max-height: 20%"/>
                     </td>
                     <td style="text-align: center">VnExpress</td>
                     <td style="text-align: center">https://vnexpress.net/giai-tri</td>
@@ -55,3 +51,4 @@
         </div>
     </jsp:body>
 </t:admin-master>
+

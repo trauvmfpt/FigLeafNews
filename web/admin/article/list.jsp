@@ -37,7 +37,7 @@
                     <td style="text-align: center">VnExpress</td>
                     <td style="text-align: center">Giải trí</td>
                     <td style="text-align: center">
-                        <img src="https://images3.alphacoders.com/785/thumb-1920-785576.png" style="max-height: 20%"/>
+                        <img src="https://images3.alphacoders.com/785/thumb-1920-785576.png" style="width: 200px;"/>
                     </td>
                     <td style="text-align: center">Game mới Nier Automata</td>
                     <td class="black-icon" style="text-align: center">

@@ -19,9 +19,27 @@
             <div class="col-lg-6 col-md-offset-3">
                 <form action="/admin/category/add" method="post" enctype="multipart/form-data">
                     <div class="form-group">
+<<<<<<< HEAD
                         <label>Tên danh mục</label>
                         <input type="text" class="form-control" name="name">
                     </div>
+=======
+                        <label>Tiêu đề tin</label>
+                        <input type="text" class="form-control" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label>Mô tả</label>
+                        <textarea class="form-control" name="description" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label>Ảnh đại diện</label>
+                            <input type="text" class="form-control" name="thumbnail">
+                            <input type="file" class="form-control" name="thumbnail">
+                        </div>
+                    </div>
+                    <div class="preview_images hidden"></div>
+>>>>>>> 09505d8532c591af036ed9fc40a57a1a2f899a78
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
                         <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
