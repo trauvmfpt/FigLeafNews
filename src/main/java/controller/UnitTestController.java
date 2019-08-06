@@ -25,7 +25,7 @@ public class UnitTestController  extends HttpServlet {
 
     private String pathname = "picture/";
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        Part filePart = req.getPart("file"); // Retrieves <input type="file" name="file">
 //        String fileName = Paths.get(filePart.getSubmittedFileName()).getFileName().toString(); // MSIE fix.
 //        InputStream fileContent = filePart.getInputStream();
@@ -40,5 +40,6 @@ public class UnitTestController  extends HttpServlet {
 //        File newPic = new File(uploadPath, newFileName);
 //        Files.copy(fileContent,newPic.toPath());
 //        resp.sendRedirect("/" + pathname + newFileName);
+            resp.getWriter().println(req.getPathInfo().toString());
     }
 }
