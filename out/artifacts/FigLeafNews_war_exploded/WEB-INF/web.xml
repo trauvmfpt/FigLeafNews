@@ -3,6 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
          version="2.5">
+
+<!--    User Route-->
     <servlet>
         <servlet-name>HomeController</servlet-name>
         <servlet-class>controller.user.HomeController</servlet-class>
@@ -11,14 +13,97 @@
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-
-
     <servlet>
         <servlet-name>SinglePostController</servlet-name>
         <servlet-class>controller.user.SinglePostController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SinglePostController</servlet-name>
-        <url-pattern>/post</url-pattern>
+        <url-pattern>/post/*</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>CategoryPostController</servlet-name>
+        <servlet-class>controller.user.CategoryPostController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryPostController</servlet-name>
+        <url-pattern>/category/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchPostController</servlet-name>
+        <servlet-class>controller.user.SearchPostController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchPostController</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
+    <!--    End User Route-->
+
+<!-- Route for Andmin   -->
+    <!--  Category Route  -->
+    <servlet>
+        <servlet-name>AddCategoryController</servlet-name>
+        <servlet-class>controller.admin.category.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCategoryController</servlet-name>
+        <url-pattern>/admin/category/add</url-pattern>
+    </servlet-mapping>
+    <!--  Article Route  -->
+    <servlet>
+        <servlet-name>AddArticleController</servlet-name>
+        <servlet-class>controller.admin.article.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddArticleController</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+
+<!--    End Route for Admin-->
+
+<!--    Route for unitTest-->
+    <servlet>
+        <servlet-name>UnitTestController</servlet-name>
+        <servlet-class>controller.UnitTestController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnitTestController</servlet-name>
+        <url-pattern>/test/*</url-pattern>
+    </servlet-mapping>
+<!--    End Route for unit Test-->
+
+
+    <filter>
+        <filter-name>LanguageFilter</filter-name>
+        <filter-class>filter.LanguageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LanguageFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>ObjectifyRegisterFilter</filter-name>
+        <filter-class>filter.ObjectifyRegisterFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ObjectifyRegisterFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>CorsFilter</filter-name>
+        <filter-class>filter.CorsFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CorsFilter</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>ObjectifyFilter</filter-name>
+        <filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ObjectifyFilter</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
 </web-app>
