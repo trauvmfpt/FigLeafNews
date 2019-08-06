@@ -72,7 +72,22 @@
         <url-pattern>/test/*</url-pattern>
     </servlet-mapping>
 <!--    End Route for unit Test-->
-
+    <servlet>
+        <servlet-name>ContactController</servlet-name>
+        <servlet-class>controller.user.ContactController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContactController</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AboutUSController</servlet-name>
+        <servlet-class>controller.user.AboutUsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AboutUSController</servlet-name>
+        <url-pattern>/about-us</url-pattern>
+    </servlet-mapping>
 
     <filter>
         <filter-name>LanguageFilter</filter-name>
