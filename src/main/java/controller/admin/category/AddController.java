@@ -15,7 +15,6 @@ public class AddController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.getRequestDispatcher("/admin/category/add.jsp").forward(req, resp);
-
     }
 
     @Override
