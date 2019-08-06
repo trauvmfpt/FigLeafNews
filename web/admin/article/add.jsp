@@ -21,8 +21,22 @@
                     <div class="form-group">
                         <label>Tiêu đề tin</label>
                         <input type="text" class="form-control" name="name">
-                        <p class="alert-danger" style="margin-top: 1%"></p>
                     </div>
+                    <div class="form-group">
+                        <label>Danh mục</label>
+                        <select name="category" class="form-control">
+                            <option selected disabled>Chọn danh mục tin</option>
+                            <option>1</option>
+                            <option>1</option>
+                            <option>1</option>
+                            <option>1</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Thumbnail</label>
+                        <input class="form-control" type="file" name="image" id="add_images">
+                    </div>
+                    <div class="preview_images hidden"></div>
                     <div class="form-group">
                         <label>Mô tả</label>
                         <textarea class="form-control" name="description" rows="5"></textarea>
@@ -33,7 +47,6 @@
                             <textarea id="editor" placeholder="Write Something..." autofocus></textarea>
                         </div>
                     </div>
-                    <div class="preview_images hidden"></div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
                         <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
@@ -41,5 +54,31 @@
                 </form>
             </div>
         </div>
+
+        <script>
+            $(function() {
+                var imagesPreview = function(input, display_images) {
+                    if (input.files) {
+                        var filesAmount = input.files.length;
+                        for (i = 0; i < filesAmount; i++) {
+                            var reader = new FileReader();
+                            reader.onload = function(e) {
+                                $($.parseHTML('<img>')).attr('src', e.target.result).appendTo(display_images);
+                                $("img").addClass("preview_image");
+                            }
+                            reader.readAsDataURL(input.files[i]);
+                        }
+                    }
+                };
+                $('#add_images').on('change', function() {
+                    $('.preview_images').removeClass("hidden");
+                    imagesPreview(this, 'div.preview_images');
+                });
+                $(":reset").click(function (){
+                    $(".preview_images").addClass('hidden');
+                    $(".preview_image").remove();
+                });
+            });
+        </script>
     </jsp:body>
 </t:admin-master>

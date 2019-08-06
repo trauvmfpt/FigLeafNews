@@ -9,7 +9,7 @@ import java.io.IOException;
 public class AddController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+        req.getRequestDispatcher("/admin/category/add.jsp").forward(req, resp);
     }
 
     @Override

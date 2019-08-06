@@ -7,139 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14dc713c-b48c-46ff-a9f5-3168c3a96cf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/admin-master.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/custom-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/common-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/write-post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/Gruntfile.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/jekyll.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/lib/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/button.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/configs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/events.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/methods.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/doc-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/tour.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-demo.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-download.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-form.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/function.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/highlight.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/mobile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/fork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/title@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/dompurify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/mobilecheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-doc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-config.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-dev-env.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-event.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-method.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/extension.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/alignment-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/bold-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/code-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/font-scale-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/table-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/title-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/core-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/formatter-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/indentation-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/alignment-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/bold-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/code-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/font-scale-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/table-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/title-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/core-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/formatter-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/indentation-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/util.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/alignment.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/blockquote.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/bold.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/button.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/code.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/color.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/font-scale.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/hr.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/image.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/indent.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/italic.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/link.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/list.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/outdent.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/popover.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/strikethrough.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/table.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/title.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/underline.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/clipboard.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/core.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/formatter.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/i18n.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/indentation.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/inputManager.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/keystroke.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/selection.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/toolbar.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/undoManager.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/util.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/fonticon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/simditor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/umd.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/util/StringUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/master.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/admin-master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/admin-master.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/resources/css/master-layout-3-css/custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/resources/css/master-layout-3-css/custom-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/tags/admin-master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/tags/admin-master.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/custom-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/admin/resources/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/admin/source" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -201,15 +93,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\source" />
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\category" />
       <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources\js" />
       <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources\js\master-layout-3-js" />
       <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\WEB-INF\tags" />
-      <recent name="C:\Users\nguye\Desktop\ASM\FigLeafNews\web\WEB-INF" />
-      <recent name="C:\Users\nguye\Desktop\ASM\FigLeafNews\web\user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vutie\Documents\Assignment Java\FigLeafNews\web\admin\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,7 +219,8 @@
       <updated>1564662979719</updated>
       <workItem from="1564662987523" duration="165000" />
       <workItem from="1564746210171" duration="10260000" />
-      <workItem from="1565010611832" duration="6391000" />
+      <workItem from="1565010611832" duration="6538000" />
+      <workItem from="1565066095177" duration="1678000" />
     </task>
     <servers />
   </component>

@@ -93,12 +93,12 @@
                     <div class="collapse @yield('show-product')" id="formsExamples">
                         <ul class="nav">
                             <li class="nav-item @yield('active-list-product')">
-                                <a class="nav-link" href="/admin/product">
+                                <a class="nav-link" href="/admin/source/list">
                                     <span class="sidebar-normal">Danh sách nguồn tin</span>
                                 </a>
                             </li>
                             <li class="nav-item @yield('active-create-product')">
-                                <a class="nav-link" href="/admin/product/create">
+                                <a class="nav-link" href="/admin/source/add">
                                     <span class="sidebar-normal">Thêm nguồn mới</span>
                                 </a>
                             </li>
@@ -116,12 +116,12 @@
                     <div class="collapse @yield('show-category')" id="tablesExamples">
                         <ul class="nav">
                             <li class="nav-item @yield('active-list-category')">
-                                <a class="nav-link" href="/admin/category">
+                                <a class="nav-link" href="/admin/category/list">
                                     <span class="sidebar-normal">Danh sách danh mục</span>
                                 </a>
                             </li>
                             <li class="nav-item @yield('active-create-category')">
-                                <a class="nav-link" href="/admin/category/create">
+                                <a class="nav-link" href="/admin/category/add">
                                     <span class="sidebar-normal">Thêm danh mục mới</span>
                                 </a>
                             </li>
@@ -206,7 +206,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>
-                        <a href="https://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+                        <a href="https://www.creative-tim.com">Creative Phúc bồ</a>, made để qua assignment
                     </p>
                 </nav>
             </div>

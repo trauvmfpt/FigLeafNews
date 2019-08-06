@@ -13,21 +13,57 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>AddController</servlet-name>
+        <servlet-name>ArticleAddController</servlet-name>
         <servlet-class>controller.admin.article.AddController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>AddController</servlet-name>
+        <servlet-name>ArticleAddController</servlet-name>
         <url-pattern>/admin/article/add</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>ListController</servlet-name>
+        <servlet-name>ArticleListController</servlet-name>
         <servlet-class>controller.admin.article.ListController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ListController</servlet-name>
+        <servlet-name>ArticleListController</servlet-name>
         <url-pattern>/admin/article/list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CategoryAddController</servlet-name>
+        <servlet-class>controller.admin.category.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryAddController</servlet-name>
+        <url-pattern>/admin/category/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CategoryListController</servlet-name>
+        <servlet-class>controller.admin.category.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryListController</servlet-name>
+        <url-pattern>/admin/category/list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SourceAddController</servlet-name>
+        <servlet-class>controller.admin.source.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SourceAddController</servlet-name>
+        <url-pattern>/admin/source/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SourceListController</servlet-name>
+        <servlet-class>controller.admin.source.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SourceListController</servlet-name>
+        <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
 
 
