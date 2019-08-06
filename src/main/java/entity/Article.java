@@ -156,6 +156,10 @@ public class Article {
         private int status;
 
         private Builder() {
+            this.id = Calendar.getInstance().getTimeInMillis();
+            this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.status = 0;
         }
 
         public static Builder anArticle() {

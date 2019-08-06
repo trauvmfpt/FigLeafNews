@@ -22,6 +22,38 @@
         <url-pattern>/post</url-pattern>
     </servlet-mapping>
 
+<!-- Route for Andmin   -->
+    <!--  Category Route  -->
+    <servlet>
+        <servlet-name>AddCategoryController</servlet-name>
+        <servlet-class>controller.admin.category.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCategoryController</servlet-name>
+        <url-pattern>/admin/category/add</url-pattern>
+    </servlet-mapping>
+    <!--  Article Route  -->
+    <servlet>
+        <servlet-name>AddArticleController</servlet-name>
+        <servlet-class>controller.admin.article.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddArticleController</servlet-name>
+        <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+
+<!--    End Route for Admin-->
+<!--    Route for unitTest-->
+    <servlet>
+        <servlet-name>UnitTestController</servlet-name>
+        <servlet-class>controller.UnitTestController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnitTestController</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+<!--    End Route for unit Test-->
+
 
     <filter>
         <filter-name>LanguageFilter</filter-name>

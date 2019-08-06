@@ -99,6 +99,10 @@ public class Category {
         private int status;
 
         private Builder() {
+            this.id = Calendar.getInstance().getTimeInMillis();
+            this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.status = 1;
         }
 
         public static Builder aCategory() {
