@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.util.List" %>
+<%@ page import="entity.Article" %><%--
   Created by IntelliJ IDEA.
   User: nguye
   Date: 8/5/2019
@@ -7,8 +8,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="mt" tagdir="/WEB-INF/tags" %>
+<%
+    List<Article> articles = (List<Article>) request.getAttribute("articles");
+%>
 <mt:master>
-    <jsp:attribute name="content">
+<jsp:attribute name="content">
 <div class="blog-area section-padding-0-80">
     <div class="container">
         <div class="row">

@@ -9,6 +9,6 @@ import java.io.IOException;
 public class SearchPostController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/user/MultilPost.jsp").forward(req,resp);
+        req.getRequestDispatcher("/user/multil-post.jsp").forward(req,resp);
     }
 }
