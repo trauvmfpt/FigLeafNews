@@ -11,8 +11,6 @@
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-
-
     <servlet>
         <servlet-name>SinglePostController</servlet-name>
         <servlet-class>controller.user.SinglePostController</servlet-class>
@@ -20,6 +18,22 @@
     <servlet-mapping>
         <servlet-name>SinglePostController</servlet-name>
         <url-pattern>/post</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ContactController</servlet-name>
+        <servlet-class>controller.user.ContactController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContactController</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AboutUSController</servlet-name>
+        <servlet-class>controller.user.AboutUsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AboutUSController</servlet-name>
+        <url-pattern>/about-us</url-pattern>
     </servlet-mapping>
 
 
