@@ -16,6 +16,15 @@ public class Category {
     private long updatedAtMLS;
     private long deletedAtMLS;
     private int status;
+    private String url;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public long getId() {
         return id;
@@ -93,6 +102,7 @@ public class Category {
         private String name;
         private String description;
         private String thumbnail;
+        private String url;
         private long createdAtMLS;
         private long updatedAtMLS;
         private long deletedAtMLS;
@@ -121,6 +131,10 @@ public class Category {
 
         public Builder withDescription(String description) {
             this.description = description;
+            return this;
+        }
+        public Builder withUrl(String url) {
+            this.url = url;
             return this;
         }
 
@@ -155,6 +169,7 @@ public class Category {
             category.setName(name);
             category.setDescription(description);
             category.setThumbnail(thumbnail);
+            category.setUrl(url);
             category.setCreatedAtMLS(createdAtMLS);
             category.setUpdatedAtMLS(updatedAtMLS);
             category.setDeletedAtMLS(deletedAtMLS);
