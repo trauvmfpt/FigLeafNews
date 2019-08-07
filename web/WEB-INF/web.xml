@@ -58,14 +58,6 @@
 
 <!-- Route for Admin   -->
     <!--  Category Route  -->
-    <servlet>
-        <servlet-name>CategoryListController</servlet-name>
-        <servlet-class>controller.admin.category.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CategoryListController</servlet-name>
-        <url-pattern>/admin/category/list</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>AddCategoryController</servlet-name>
@@ -95,14 +87,6 @@
     </servlet-mapping>
 
     <!--  Article Route  -->
-    <servlet>
-        <servlet-name>ArticleListController</servlet-name>
-        <servlet-class>controller.admin.article.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ArticleListController</servlet-name>
-        <url-pattern>/admin/article/list</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>AddArticleController</servlet-name>
@@ -130,22 +114,7 @@
     </servlet-mapping>
 
 <!--    Source route-->
-    <servlet>
-        <servlet-name>SourceAddController</servlet-name>
-        <servlet-class>controller.admin.source.AddController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceAddController</servlet-name>
-        <url-pattern>/admin/source/add</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>SourceListController</servlet-name>
-        <servlet-class>controller.admin.source.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceListController</servlet-name>
-        <url-pattern>/admin/source/list</url-pattern>
-    </servlet-mapping>
+
     <servlet>
         <servlet-name>SourceEditController</servlet-name>
         <servlet-class>controller.admin.source.EditController</servlet-class>
@@ -173,7 +142,6 @@
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
 
-<<<<<<< HEAD
     <servlet>
         <servlet-name>GetQueue</servlet-name>
         <servlet-class>controller.admin.crawler.GetQueue</servlet-class>
@@ -195,8 +163,6 @@
 
 <!-- Route for Admin   -->
     <!--  Category Route  -->
-=======
->>>>>>> a92c478e0409685cc7f8b5dbcdde1641a8edf074
     <servlet>
         <servlet-name>SpecificSourceController</servlet-name>
         <servlet-class>controller.admin.crawler.PreviewSpecialContentController</servlet-class>
