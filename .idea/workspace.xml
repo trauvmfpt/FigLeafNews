@@ -8,12 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1595a2-536d-4939-8a2c-9567ed1519a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/SaveSpecialContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/SaveSpecialContentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/crawler/CrawlerSourceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google App Engine Deployment.fpt account">
+  <component name="RunManager" selected="Google App Engine Standard Local Server.Google App Engine Standard Local Server11">
     <configuration name="fpt account" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
       <deployment type="appengine-artifact-source" name="FigLeafNews:war exploded" project="java-assignment-248802" version="main">
         <settings cloudProjectName="java-assignment-248802" environment="APP_ENGINE_STANDARD" googleUsername="hoangnvd00536@fpt.edu.vn" version="main" />

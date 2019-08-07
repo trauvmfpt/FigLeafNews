@@ -76,6 +76,14 @@
         <servlet-name>EditCategoryController</servlet-name>
         <url-pattern>/admin/category/edit</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ListCategoryController</servlet-name>
+        <servlet-class>controller.admin.category.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListCategoryController</servlet-name>
+        <url-pattern>/admin/category/list</url-pattern>
+    </servlet-mapping>
 
     <!--  Article Route  -->
 
@@ -95,6 +103,15 @@
     <servlet-mapping>
         <servlet-name>ArticleEditController</servlet-name>
         <url-pattern>/admin/article/edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ArticleListController</servlet-name>
+        <servlet-class>controller.admin.article.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticleListController</servlet-name>
+        <url-pattern>/admin/article/list</url-pattern>
     </servlet-mapping>
 
     <!--  Source Route  -->
@@ -162,6 +179,7 @@
         <servlet-name>SaveSpecificSourceController</servlet-name>
         <url-pattern>/admin/source/save-specific-source</url-pattern>
     </servlet-mapping>
+
 
 <!--    End Route for Admin-->
 

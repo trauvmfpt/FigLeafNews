@@ -58,14 +58,6 @@
 
 <!-- Route for Admin   -->
     <!--  Category Route  -->
-    <servlet>
-        <servlet-name>CategoryListController</servlet-name>
-        <servlet-class>controller.admin.category.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CategoryListController</servlet-name>
-        <url-pattern>/admin/category/list</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>AddCategoryController</servlet-name>
@@ -84,16 +76,16 @@
         <servlet-name>EditCategoryController</servlet-name>
         <url-pattern>/admin/category/edit</url-pattern>
     </servlet-mapping>
-
-    <!--  Article Route  -->
     <servlet>
-        <servlet-name>ArticleListController</servlet-name>
-        <servlet-class>controller.admin.article.ListController</servlet-class>
+        <servlet-name>ListCategoryController</servlet-name>
+        <servlet-class>controller.admin.category.ListController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ArticleListController</servlet-name>
-        <url-pattern>/admin/article/list</url-pattern>
+        <servlet-name>ListCategoryController</servlet-name>
+        <url-pattern>/admin/category/list</url-pattern>
     </servlet-mapping>
+
+    <!--  Article Route  -->
 
     <servlet>
         <servlet-name>AddArticleController</servlet-name>
@@ -111,6 +103,15 @@
     <servlet-mapping>
         <servlet-name>ArticleEditController</servlet-name>
         <url-pattern>/admin/article/edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ArticleListController</servlet-name>
+        <servlet-class>controller.admin.article.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticleListController</servlet-name>
+        <url-pattern>/admin/article/list</url-pattern>
     </servlet-mapping>
 
     <!--  Source Route  -->
@@ -131,6 +132,7 @@
         <servlet-name>SourceListController</servlet-name>
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>SourceEditController</servlet-name>
         <servlet-class>controller.admin.source.EditController</servlet-class>
@@ -160,7 +162,6 @@
 
 <!-- Route for Admin   -->
     <!--  Category Route  -->
-
     <servlet>
         <servlet-name>SpecificSourceController</servlet-name>
         <servlet-class>controller.admin.crawler.PreviewSpecialContentController</servlet-class>
@@ -178,6 +179,7 @@
         <servlet-name>SaveSpecificSourceController</servlet-name>
         <url-pattern>/admin/source/save-specific-source</url-pattern>
     </servlet-mapping>
+
 
 <!--    End Route for Admin-->
 
