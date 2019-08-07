@@ -19,6 +19,7 @@ public class Article {
     private String author;
     private String thumbnail;
     private long sourceId;
+    @Index
     private long createdAtMLS;
     private long updatedAtMLS;
     private long deletedAtMLS;
