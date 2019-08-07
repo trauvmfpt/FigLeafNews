@@ -2,6 +2,7 @@ package entity;
 
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
+import com.googlecode.objectify.annotation.Index;
 
 import java.util.Calendar;
 
@@ -9,6 +10,7 @@ import java.util.Calendar;
 public class Category {
     @Id
     private long id;
+    @Index
     private String name;
     private String description;
     private String thumbnail;

@@ -20,11 +20,11 @@
                 <form action="/admin/source/add" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>Tên nguồn</label>
-                        <input type="text" class="form-control" name=url>
+                        <input type="text" class="form-control" name="name">
                     </div>
                     <div class="form-group">
                         <label>Đường dẫn nguồn</label>
-                        <input type="text" class="form-control" name=url>
+                        <input type="text" class="form-control" name="url">
                     </div>
                     <div class="form-group">
                         <label>Link selector</label>
@@ -85,3 +85,5 @@
         </script>
     </jsp:body>
 </t:admin-master>
+
+

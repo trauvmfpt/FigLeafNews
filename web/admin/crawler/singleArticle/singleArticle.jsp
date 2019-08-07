@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: admin
-  Date: 8/1/2019
-  Time: 6:51 PM
+  User: nguye
+  Date: 8/7/2019
+  Time: 3:22 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -12,27 +12,16 @@
     <jsp:body>
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header text-center">Thêm nguồn bài viết</h1>
+                <h1 class="page-header text-center">Crawler bài viết</h1>
             </div>
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form action="/admin/source/add" method="post" enctype="multipart/form-data">
+                <form action="/admin/crawler/singleArticle" method="post" enctype="application/x-www-form-urlencoded">
+
                     <div class="form-group">
-                        <label>Tên nguồn</label>
-                        <input type="text" class="form-control" name="name">
-                    </div>
-                    <div class="form-group">
-                        <label>Đường dẫn nguồn</label>
+                        <label>Đường dẫn trang</label>
                         <input type="text" class="form-control" name="url">
-                    </div>
-                    <div class="form-group">
-                        <label>Link selector</label>
-                        <input class="form-control" name="linkSelector" />
-                    </div>
-                    <div class="form-group">
-                        <label>Link limit</label>
-                        <input class="form-control" name="linkLimit" />
                     </div>
                     <div class="form-group">
                         <label>Title selector</label>
@@ -44,14 +33,18 @@
                     </div>
                     <div class="form-group">
                         <label>Content selector</label>
-                        <input class="form-control" name="contentSelector" />
+                            <input class="form-control" name="contentSelector" />
+                    </div>
+                    <div class="form-group">
+                        <label>Image selector</label>
+                        <input class="form-control" placeholder="take the first img if multil choose" name="imageSelector" />
                     </div>
                     <div class="form-group">
                         <label>Author selector</label>
-                        <input class="form-control" name="authorSelector" />
+                        <input class="form-control" placeholder="nên để trống" name="authorSelector" />
                     </div>
                     <div class="form-group" style="text-align: center;">
-                        <button type="submit" class="btn btn-primary btn-block">Đăng</button>
+                        <button type="submit" class="btn btn-primary btn-block">Thực hiện</button>
                         <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
                     </div>
                 </form>
@@ -85,5 +78,3 @@
         </script>
     </jsp:body>
 </t:admin-master>
-
-

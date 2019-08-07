@@ -37,6 +37,22 @@
         <servlet-name>SearchPostController</servlet-name>
         <url-pattern>/search</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ContactController</servlet-name>
+        <servlet-class>controller.user.ContactController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContactController</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AboutUSController</servlet-name>
+        <servlet-class>controller.user.AboutUsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AboutUSController</servlet-name>
+        <url-pattern>/about-us</url-pattern>
+    </servlet-mapping>
 
     <!--    End User Route-->
 
@@ -112,6 +128,24 @@
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
 
+<!--    Crawler Route-->
+    <servlet>
+        <servlet-name>PreviewController</servlet-name>
+        <servlet-class>controller.admin.crawler.PreviewSpecialContentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreviewController</servlet-name>
+        <url-pattern>/admin/crawler/preview</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SingleArticleCrawlerController</servlet-name>
+        <servlet-class>controller.admin.crawler.SingleArticle.SingleCrawlerArticleController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SingleArticleCrawlerController</servlet-name>
+        <url-pattern>/admin/crawler/singleArticle</url-pattern>
+    </servlet-mapping>
+
 <!--    End Route for Admin-->
 
 <!--    Route for unitTest-->
@@ -124,22 +158,8 @@
         <url-pattern>/test/*</url-pattern>
     </servlet-mapping>
 <!--    End Route for unit Test-->
-    <servlet>
-        <servlet-name>ContactController</servlet-name>
-        <servlet-class>controller.user.ContactController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ContactController</servlet-name>
-        <url-pattern>/contact</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>AboutUSController</servlet-name>
-        <servlet-class>controller.user.AboutUsController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>AboutUSController</servlet-name>
-        <url-pattern>/about-us</url-pattern>
-    </servlet-mapping>
+
+
 
     <filter>
         <filter-name>LanguageFilter</filter-name>

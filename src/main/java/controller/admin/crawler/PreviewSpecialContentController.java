@@ -40,6 +40,9 @@ public class PreviewSpecialContentController extends HttpServlet {
         responseObject.put("url", url);
         responseObject.put("title", title);
         responseObject.put("content", content);
+        responseObject.put("titleSelector", titleSelector);
+        responseObject.put("contentSelector", contentSelector);
+//        responseObject.put("doc", document.html());
         resp.getWriter().println(new Gson().toJson(responseObject));
     }
 }
