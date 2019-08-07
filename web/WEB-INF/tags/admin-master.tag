@@ -46,10 +46,10 @@
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="/admin" class="simple-text logo-mini">
-                    FF
+                    VTV
                 </a>
                 <a href="/admin" class="simple-text logo-normal">
-                    FarFetch
+                    Vua Tin Vịt
                 </a>
             </div>
             <ul class="nav">
@@ -100,6 +100,11 @@
                             <li class="nav-item @yield('active-create-product')">
                                 <a class="nav-link" href="/admin/source/add">
                                     <span class="sidebar-normal">Thêm nguồn mới</span>
+                                </a>
+                            </li>
+                            <li class="nav-item @yield('active-create-product')">
+                                <a class="nav-link" href="/admin/source/specific-source">
+                                    <span class="sidebar-normal">Thêm bài từ nguồn</span>
                                 </a>
                             </li>
                         </ul>
@@ -176,6 +181,7 @@
                     <span class="navbar-toggler-bar burger-lines"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end">
+                    <h4 id="currentUser">Welcome <c:out value="${currentUser}"/></h4>
                     <ul class="navbar-nav" style="float: right">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="https://example.com" id="navbarDropdownMenuLink"
@@ -183,7 +189,7 @@
                                 <i class="nc-icon nc-bullet-list-67"></i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                                <a href="/admin/logout" class="dropdown-item text-danger">
+                                <a href="<c:out value="${logout}"/>" class="dropdown-item text-danger">
                                     <i class="nc-icon nc-button-power"></i> Log out
                                 </a>
                             </div>
