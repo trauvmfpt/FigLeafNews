@@ -7,7 +7,6 @@ import entity.Category;
 import util.MyUtil;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,7 +15,6 @@ import java.util.logging.Logger;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
 
-@MultipartConfig
 public class EditController extends HttpServlet {
     private static final Logger LOGGER = Logger.getLogger(EditController.class.getSimpleName());
     @Override

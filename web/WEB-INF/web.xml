@@ -173,6 +173,30 @@
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
 
+<<<<<<< HEAD
+    <servlet>
+        <servlet-name>GetQueue</servlet-name>
+        <servlet-class>controller.admin.crawler.GetQueue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetQueue</servlet-name>
+        <url-pattern>/admin/task/get</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddQueue</servlet-name>
+        <servlet-class>controller.admin.crawler.AddQueue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddQueue</servlet-name>
+        <url-pattern>/admin/task/add</url-pattern>
+    </servlet-mapping>
+
+    <!--    End User Route-->
+
+<!-- Route for Admin   -->
+    <!--  Category Route  -->
+=======
+>>>>>>> a92c478e0409685cc7f8b5dbcdde1641a8edf074
     <servlet>
         <servlet-name>SpecificSourceController</servlet-name>
         <servlet-class>controller.admin.crawler.PreviewSpecialContentController</servlet-class>
@@ -228,6 +252,7 @@
 
 
 
+<!--    filters -->
     <filter>
         <filter-name>LanguageFilter</filter-name>
         <filter-class>filter.LanguageFilter</filter-class>

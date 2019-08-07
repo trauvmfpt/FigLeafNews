@@ -36,6 +36,7 @@ public class EditController extends HttpServlet {
         try {
             sourceId = Long.parseLong(strSourceId);
         } catch (NumberFormatException ex) {}
+        String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
         int linkLimit = 10;
         try {
@@ -50,7 +51,9 @@ public class EditController extends HttpServlet {
             categoryId = Long.parseLong(req.getParameter("categoryId"));
         }catch (NumberFormatException ex){}
 
+
         Source source = ofy().load().type(Source.class).id(sourceId).now();
+        source.setSourceName(name);
         source.setUrl(url);
         source.setLinkSelector(linkSelector);
         source.setLinkLimit(linkLimit);

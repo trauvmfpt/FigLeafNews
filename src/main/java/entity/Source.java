@@ -178,7 +178,6 @@ public class Source {
             this.id = id;
             return this;
         }
-
         public Builder withSourceName(String sourceName) {
             this.sourceName = sourceName;
             return this;
