@@ -20,7 +20,7 @@ public class PreviewSpecialContentController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/admin/crawler-source/special-content.jsp").forward(req, resp);
+        req.getRequestDispatcher("/admin/source/specific-source.jsp").forward(req, resp);
     }
 
     @Override
@@ -31,18 +31,21 @@ public class PreviewSpecialContentController extends HttpServlet {
         JSONObject jsonObject = new JSONObject(requestBody);
         String url = jsonObject.getString("url");
         String titleSelector = jsonObject.getString("titleSelector");
+        String descriptionSelector = jsonObject.getString("descriptionSelector");
+        String authorSelector = jsonObject.getString("authorSelector");
         String contentSelector = jsonObject.getString("contentSelector");
 
         Document document = Jsoup.connect(url).ignoreContentType(true).get();
         String title = document.select(titleSelector).text();
+        String description = document.select(descriptionSelector).text();
         String content = document.select(contentSelector).html();
+        String author = document.select(authorSelector).text();
         HashMap<String, String> responseObject = new HashMap<>();
         responseObject.put("url", url);
         responseObject.put("title", title);
         responseObject.put("content", content);
-        responseObject.put("titleSelector", titleSelector);
-        responseObject.put("contentSelector", contentSelector);
-//        responseObject.put("doc", document.html());
+        responseObject.put("description", description);
+        responseObject.put("author", author);
         resp.getWriter().println(new Gson().toJson(responseObject));
     }
 }

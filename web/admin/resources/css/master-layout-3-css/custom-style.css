@@ -60,3 +60,11 @@ body{
 .preview_images{
     margin-bottom: 20px;
 }
+
+.modal-dialog{
+    max-width: 700px;
+}
+
+.modal-header{
+    justify-content: center;
+}
