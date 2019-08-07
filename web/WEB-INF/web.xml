@@ -58,14 +58,6 @@
 
 <!-- Route for Admin   -->
     <!--  Category Route  -->
-    <servlet>
-        <servlet-name>CategoryListController</servlet-name>
-        <servlet-class>controller.admin.category.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CategoryListController</servlet-name>
-        <url-pattern>/admin/category/list</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>AddCategoryController</servlet-name>
@@ -86,14 +78,6 @@
     </servlet-mapping>
 
     <!--  Article Route  -->
-    <servlet>
-        <servlet-name>ArticleListController</servlet-name>
-        <servlet-class>controller.admin.article.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ArticleListController</servlet-name>
-        <url-pattern>/admin/article/list</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>AddArticleController</servlet-name>
@@ -131,6 +115,7 @@
         <servlet-name>SourceListController</servlet-name>
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>SourceEditController</servlet-name>
         <servlet-class>controller.admin.source.EditController</servlet-class>
@@ -160,7 +145,6 @@
 
 <!-- Route for Admin   -->
     <!--  Category Route  -->
-
     <servlet>
         <servlet-name>SpecificSourceController</servlet-name>
         <servlet-class>controller.admin.crawler.PreviewSpecialContentController</servlet-class>

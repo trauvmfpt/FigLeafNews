@@ -16,13 +16,13 @@ import static com.googlecode.objectify.ObjectifyService.ofy;
 public class AddController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         req.setAttribute("categories",ofy().load().type(Category.class).list());
         req.getRequestDispatcher("/admin/source/add.jsp").forward(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         resp.setCharacterEncoding("UTF-8");
         String url = req.getParameter("url");
         String name = req.getParameter("name");
