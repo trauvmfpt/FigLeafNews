@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <t:admin-master>
     <jsp:body>
@@ -21,30 +22,33 @@
             <table width="100%" class="table table-hover" id="dataTables-example" style="background-color: white">
                 <thead>
                 <tr>
-                    <th style="text-align: center">ID</th>
-                    <th style="text-align: center">Nguồn</th>
+<%--                    <th style="text-align: center">ID</th>--%>
+                    <th style="text-align: center">Tiêu để</th>
                     <th style="text-align: center">Danh mục</th>
                     <th style="text-align: center">Thumbnail</th>
-                    <th style="text-align: center">Tiêu đề</th>
+                    <th style="text-align: center">Mô tả</th>
                     <th style="text-align: center">Thao tác</th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="odd gradeX row-item" id="row-item-{{$item->id}}">
-                    <td style="text-align: center">
-                        12930129301
-                    </td>
-                    <td style="text-align: center">VnExpress</td>
-                    <td style="text-align: center">Giải trí</td>
-                    <td style="text-align: center">
-                        <img src="https://images3.alphacoders.com/785/thumb-1920-785576.png" style="width: 200px;"/>
-                    </td>
-                    <td style="text-align: center">Game mới Nier Automata</td>
-                    <td class="black-icon" style="text-align: center">
-                        <a href="#" class="fa fa-pencil btn-quick-edit mr-2"></a>
-                        <a href="#" id="{{$item -> id}}" class="fa fa-trash mr-2"></a>
-                    </td>
-                </tr>
+                <c:forEach var="article" items="${articles}">
+                    <tr class="odd gradeX row-item" >
+<%--                        <td style="text-align: center">--%>
+<%--                            12930129301--%>
+<%--                        </td>--%>
+                        <td style="text-align: center"><a target="_blank" href="/post/${article.url}">${article.title}</a></td>
+                        <td style="text-align: center">${article.getCategory().get().getName()}</td>
+                        <td style="text-align: center">
+                            <img src="${article.thumbnail}" style="width: 200px;"/>
+                        </td>
+                        <td style="text-align: center">${article.description}</td>
+                        <td class="black-icon" style="text-align: center">
+                            <a href="/admin/article/edit?id=${article.id}" class="fa fa-pencil btn-quick-edit mr-2"></a>
+                            <a href="#" id="" class="fa fa-trash mr-2"></a>
+                        </td>
+                    </tr>
+                </c:forEach>
+
                 </tbody>
             </table>
         </div>
