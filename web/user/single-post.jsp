@@ -30,7 +30,7 @@
                                     <h6><c:out value="${article.title}"/></h6>
                                 </a>
                                 <div class="post-meta">
-                                    <c:out value="${article.content}"/>
+                                        ${article.content}
                                 </div>
                             </div>
                         </div>

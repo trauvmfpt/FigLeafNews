@@ -1,8 +1,10 @@
 package controller.admin.crawler;
 
+import com.google.appengine.api.users.UserService;
 import com.google.gson.Gson;
 import entity.Article;
 import org.json.JSONObject;
+import util.MyUtil;
 import util.StringUtil;
 
 import javax.servlet.ServletException;
@@ -30,6 +32,7 @@ public class SaveSpecialContentController extends HttpServlet {
         String author = jsonObject.getString("author");
         Article article = Article.Builder.anArticle()
                 .withTitle(title)
+                .withUrl(MyUtil.getInstance().toSlug(title))
                 .withContent(content)
                 .withDescription(description)
                 .withAuthor(author)

@@ -12,6 +12,7 @@ import java.util.Calendar;
 public class Article {
     @Id
     private long id;
+    @Index
     private String url;
     private String title;
     private String description;
