@@ -21,6 +21,10 @@
                         <label>Tên danh mục</label>
                         <input type="text" class="form-control" name="name">
                     </div>
+                    <div class="form-group">
+                        <label>Tên danh mục</label>
+                        <textarea class="form-control" name="description">
+                    </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
                         <button type="reset" class="btn btn-primary btn-block">Viết lại</button>

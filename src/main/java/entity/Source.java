@@ -10,6 +10,7 @@ import java.util.Calendar;
 public class Source {
     @Id
     private long id;
+    private String name;
     private String url;
     private String linkSelector;
     private int linkLimit;
@@ -29,6 +30,14 @@ public class Source {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getUrl() {
@@ -140,6 +149,7 @@ public class Source {
 
     public static final class Builder {
         private long id;
+        private String name;
         private String url;
         private String linkSelector;
         private int linkLimit;
@@ -162,6 +172,11 @@ public class Source {
 
         public Builder withId(long id) {
             this.id = id;
+            return this;
+        }
+
+        public Builder withName(String name) {
+            this.name = name;
             return this;
         }
 
@@ -228,6 +243,7 @@ public class Source {
         public Source build() {
             Source source = new Source();
             source.setId(id);
+            source.setName(name);
             source.setUrl(url);
             source.setLinkSelector(linkSelector);
             source.setLinkLimit(linkLimit);

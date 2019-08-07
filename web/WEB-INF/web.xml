@@ -74,6 +74,23 @@
         <url-pattern>/search</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>GetQueue</servlet-name>
+        <servlet-class>controller.admin.crawler.GetQueue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetQueue</servlet-name>
+        <url-pattern>/admin/task/get</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddQueue</servlet-name>
+        <servlet-class>controller.admin.crawler.AddQueue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddQueue</servlet-name>
+        <url-pattern>/admin/task/add</url-pattern>
+    </servlet-mapping>
+
     <!--    End User Route-->
 
 <!-- Route for Admin   -->
@@ -125,6 +142,7 @@
         <url-pattern>/about-us</url-pattern>
     </servlet-mapping>
 
+<!--    filters -->
     <filter>
         <filter-name>LanguageFilter</filter-name>
         <filter-class>filter.LanguageFilter</filter-class>

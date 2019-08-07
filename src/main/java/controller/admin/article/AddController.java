@@ -27,6 +27,7 @@ public class AddController extends HttpServlet {
     private static final Logger LOGGER = Logger.getLogger(AddController.class.getSimpleName());
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setAttribute("categories", ofy().load().type(Category.class).list());
         req.getRequestDispatcher("/admin/article/add.jsp").forward(req, resp);
     }
 
