@@ -1,3 +1,4 @@
+import seeder.ArticleSeeder;
 import seeder.CategorySeeder;
 
 public class UnitTestMain {
@@ -9,6 +10,7 @@ public class UnitTestMain {
 //            System.out.println("a"+w);
 //        }
         CategorySeeder.run();
+        ArticleSeeder.run();
     }
 
 }

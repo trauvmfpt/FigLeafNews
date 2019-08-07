@@ -47,6 +47,6 @@ public class UnitTestController  extends HttpServlet {
 //        CategorySeeder.run();
 //        Uncomment to Run Cate Seeder
         ArticleSeeder.run();
-
+        CategorySeeder.run();
     }
 }

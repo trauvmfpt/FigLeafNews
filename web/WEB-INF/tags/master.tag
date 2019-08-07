@@ -40,9 +40,9 @@
                         <div class="login-search-area d-flex align-items-center">
                             <!-- Search Form -->
                             <div class="search-form">
-                                <form action="#" method="post">
+                                <form action="" method="POST">
                                     <input type="search" name="search" class="form-control" placeholder="Search">
-                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button type="submit" id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
                                 </form>
                             </div>
                         </div>
@@ -248,5 +248,26 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".search").click(function () {
+            var data = {
+                "title": $('input[name="search"]').val()
+            };
+            alert("Hello");
+            // $.ajax({
+            //     "url": "http://localhost:8080/search",
+            //     "method": "post",
+            //     "data": JSON.stringify(data),
+            //     "success": function (responseData) {
+            //         console.log("Success.");
+            //     },
+            //     "error": function () {
+            //         console.log("Error.");
+            //     }
+            // })
+        })
+    })
+</script>
 </body>
 </html>

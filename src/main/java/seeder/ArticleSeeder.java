@@ -9,7 +9,7 @@ import util.MyUtil;
 import static com.googlecode.objectify.ObjectifyService.ofy;
 
 public class ArticleSeeder {
-    public static void run(){
+    public static void  run(){
         Article article = Article.Builder.anArticle()
                 .withTitle("China to hold illegal military drills in South China Sea amid rising tensions")
                 .withUrl(MyUtil.getInstance().toSlug("China to hold illegal military drills in South China Sea amid rising tensions"))
@@ -45,7 +45,7 @@ public class ArticleSeeder {
                         "China claims almost the entire South China Sea, including waters close to Taiwan and Southeast Asian countries Brunei, Indonesia, Malaysia, the Philippines and Vietnam.\n" +
                         "\n" +
                         "Last June, China conducted a series of anti-ship ballistic missile tests in an area to the north of the Spratly  Islands from June 29 until July 3.")
-                .withCategory(Ref.create(Key.create(Category.class, "1565010908179")))
+                .withCategory(Ref.create(Key.create(Category.class, Long.parseLong("1565194513174"))))
                 .withThumbnail("https://i-english.vnecdn.net/2019/08/05/woody1553783565155378363174801-1445-1343-1564999849_680x408.jpg")
                 .build();
         ofy().save().entity(article).now();
@@ -78,7 +78,7 @@ public class ArticleSeeder {
                         "\n" +
                         "The online marketplace was the second most visited in Vietnam in the first half of 2019, with 33.7 million web visits per month, behind Singapore-based Shopee which had 38.6 million.")
                 .withThumbnail("https://i-english.vnecdn.net/2019/08/05/Tiki-1564999676-1111-1564999849_680x408.jpg")
-                .withCategory(Ref.create(Key.create(Category.class, "1565010908654")))
+                .withCategory(Ref.create(Key.create(Category.class, Long.parseLong("1565194513174"))))
                 .build();
         ofy().save().entity(article).now();
 //
@@ -110,7 +110,7 @@ public class ArticleSeeder {
                         "\n" +
                         "The city is also on top of the list of most affordable destinations in the world, with backpackers needing just $18.29 a day in Hanoi, according to the 2019 Backpacker Index formulated by Price of Travel, the world’s largest database of travel costs.")
                 .withThumbnail("https://i-english.vnecdn.net/2019/08/02/shutterstock526152628154106275-6242-1538-1564741394_680x408.jpg")
-                .withCategory(Ref.create(Key.create(Category.class, "1565010908662")))
+                .withCategory(Ref.create(Key.create(Category.class,Long.parseLong("1565194513187"))))
                 .build();
         ofy().save().entity(article).now();
 //
@@ -120,7 +120,7 @@ public class ArticleSeeder {
                 .withDescription("A house in the central province of Quang Nam eschews walls to blur the distinction between indoors and outdoors")
                 .withContent("The three-story house was built on a 147-square meter plot of land belongs to a young couple in the province. They use it for their homestay service. It only 200 meters from the beautiful An Bang beach, and has green, tranquil surroundings.")
                 .withThumbnail("https://i-english.vnecdn.net/2019/08/05/a-147-1564711443-680x0-8948-1564976636.jpg")
-                .withCategory(Ref.create(Key.create(Category.class, "1565010908662")))
+                .withCategory(Ref.create(Key.create(Category.class, Long.parseLong("1565194513184"))))
                 .build();
         ofy().save().entity(article).now();
 //
@@ -136,7 +136,7 @@ public class ArticleSeeder {
                         "\n" +
                         "Giang also put his hand in the boy's mouth to prevent him from choking on his tongue or biting his tongue and took him to the ambulance.")
                 .withThumbnail("https://i-english.vnecdn.net/2019/08/05/cop-1564986565-6612-1564986792_680x408.jpg")
-                .withCategory(Ref.create(Key.create(Category.class, "1565010908664")))
+                .withCategory(Ref.create(Key.create(Category.class, Long.parseLong("1565194513181"))))
                 .build();
         ofy().save().entity(article).now();
 //
@@ -158,7 +158,7 @@ public class ArticleSeeder {
                         "\n" +
                         "The justification to cull trees, narrow sidewalks and widen streets is understandable: there are too many vehicles on the road, and traffic congestion is becoming unbearable. If road surface increases, traffic will flow more smoothly, and congestion will be eased.")
                 .withThumbnail("https://i-english.vnecdn.net/2019/07/25/Hanoi2-5303-1564048069.jpg")
-                .withCategory(Ref.create(Key.create(Category.class, "\t1565010908667")))
+                .withCategory(Ref.create(Key.create(Category.class, Long.parseLong("1565194513181"))))
                 .build();
         ofy().save().entity(article).now();
     }

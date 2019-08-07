@@ -4,4 +4,5 @@
   <runtime>java8</runtime>
   <url-stream-handler>urlfetch</url-stream-handler>
   <sessions-enabled>true</sessions-enabled>
+  <service>crawler</service>
 </appengine-web-app>

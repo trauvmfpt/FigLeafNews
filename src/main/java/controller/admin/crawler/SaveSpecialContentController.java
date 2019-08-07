@@ -24,13 +24,15 @@ public class SaveSpecialContentController extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         String requestBody = StringUtil.convertInputStreamToString(req.getInputStream());
         JSONObject jsonObject = new JSONObject(requestBody);
-        String url = jsonObject.getString("url");
         String title = jsonObject.getString("title");
+        String description = jsonObject.getString("description");
         String content = jsonObject.getString("content");
+        String author = jsonObject.getString("author");
         Article article = Article.Builder.anArticle()
-                .withUrl(url)
                 .withTitle(title)
                 .withContent(content)
+                .withDescription(description)
+                .withAuthor(author)
                 .build();
         ofy().save().entity(article).now();
         resp.getWriter().println(new Gson().toJson(article));

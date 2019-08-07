@@ -13,6 +13,7 @@ public class Article {
     @Id
     private long id;
     private String url;
+    @Index
     private String title;
     private String description;
     private String content;

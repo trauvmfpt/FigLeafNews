@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    <cron>
+        <url>/admin/task/add</url>
+        <target>crawler</target>
+        <description>get index link only. (no detail)</description>
+        <schedule>every 5 hours</schedule>
+    </cron>
+    <cron>
+        <url>/admin/task/get</url>
+        <target>crawler</target>
+        <description>get detail</description>
+        <schedule>every 5 minutes</schedule>
+    </cron>
+</cronentries>

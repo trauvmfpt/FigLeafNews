@@ -15,13 +15,15 @@ import static com.googlecode.objectify.ObjectifyService.ofy;
 
 public class AddController extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+        req.setAttribute("categories",ofy().load().type(Category.class).list());
         req.getRequestDispatcher("/admin/source/add.jsp").forward(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String url = req.getParameter("url");
+        String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
         int linkLimit = 10;
         try {
@@ -34,8 +36,9 @@ public class AddController extends HttpServlet {
         long categoryId = 0;
         try {
             categoryId = Long.parseLong(req.getParameter("categoryId"));
-        }catch (NumberFormatException ex){}
+        }catch (NumberFormatException ex){System.out.println(req.getParameter("categoryId"));}
         Source source = Source.Builder.aSource()
+                .withSourceName(name)
                 .withUrl(url)
                 .withLinkSelector(linkSelector)
                 .withLinkLimit(linkLimit)
@@ -46,6 +49,6 @@ public class AddController extends HttpServlet {
                 .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .build();
         ofy().save().entity(source).now();
-        req.getRequestDispatcher("admin/source/list.jsp").forward(req,resp);
+        resp.sendRedirect("/admin/source/list");
     }
 }

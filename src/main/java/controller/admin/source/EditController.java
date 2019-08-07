@@ -16,24 +16,27 @@ import static com.googlecode.objectify.ObjectifyService.ofy;
 public class EditController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String strSourceId = req.getParameter("sourceId");
+
+        String strSourceId = req.getParameter("id");
         long sourceId = 0;
         try {
             sourceId = Long.parseLong(strSourceId);
         } catch (NumberFormatException ex) {}
-        Source source = ofy().load().type(Source.class).filter("id", sourceId).first().now();
+        Source source = ofy().load().type(Source.class).id(sourceId).now();
         req.setAttribute("source", source);
-        req.getRequestDispatcher("admin/source/edit.jsp").forward(req,resp);
+        req.setAttribute("categories",ofy().load().type(Category.class).list());
+        req.getRequestDispatcher("/admin/source/edit.jsp").forward(req,resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String url = req.getParameter("url");
-        String strSourceId = req.getParameter("sourceId");
+        String strSourceId = req.getParameter("id");
         long sourceId = 0;
         try {
             sourceId = Long.parseLong(strSourceId);
         } catch (NumberFormatException ex) {}
+        String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
         int linkLimit = 10;
         try {
@@ -48,7 +51,9 @@ public class EditController extends HttpServlet {
             categoryId = Long.parseLong(req.getParameter("categoryId"));
         }catch (NumberFormatException ex){}
 
-        Source source = ofy().load().type(Source.class).filter("id", sourceId).first().now();
+
+        Source source = ofy().load().type(Source.class).id(sourceId).now();
+        source.setSourceName(name);
         source.setUrl(url);
         source.setLinkSelector(linkSelector);
         source.setLinkLimit(linkLimit);
@@ -58,6 +63,6 @@ public class EditController extends HttpServlet {
         source.setAuthorSelector(authorSelector);
         source.setCategory(Ref.create(Key.create(Category.class, categoryId)));
         ofy().save().entity(source).now();
-        req.getRequestDispatcher("admin/source/list.jsp").forward(req,resp);
+        resp.sendRedirect("/admin/source/list");
     }
 }
