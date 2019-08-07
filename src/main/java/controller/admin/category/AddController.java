@@ -2,6 +2,7 @@ package controller.admin.category;
 
 import com.google.gson.Gson;
 import entity.Category;
+import util.MyUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,11 +25,13 @@ public class AddController extends HttpServlet {
         Category category = Category.Builder.aCategory()
                 .withName(name)
                 .withDescription(description)
+                .withUrl(MyUtil.getInstance().toSlug(name))
                 .build();
         ofy().save().entity(category).now();
-
-        resp.setContentType("application/json");
-        resp.getWriter().println(new Gson().toJson(category));
+        resp.sendRedirect("/admin/category/list");
+//        req.getRequestDispatcher("/admin/category/list.jsp").forward(req,resp);
+//        resp.setContentType("application/json");
+//        resp.getWriter().println(new Gson().toJson(category));
 
     }
 }

@@ -10,7 +10,7 @@ import java.util.Calendar;
 public class Source {
     @Id
     private long id;
-    private String name;
+    private String sourceName;
     private String url;
     private String linkSelector;
     private int linkLimit;
@@ -24,20 +24,20 @@ public class Source {
     private long deletedAtMLS;
     private int status;
 
+    public String getSourceName() {
+        return sourceName;
+    }
+
+    public void setSourceName(String sourceName) {
+        this.sourceName = sourceName;
+    }
+
     public long getId() {
         return id;
     }
 
     public void setId(long id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getUrl() {
@@ -149,7 +149,7 @@ public class Source {
 
     public static final class Builder {
         private long id;
-        private String name;
+        private String sourceName;
         private String url;
         private String linkSelector;
         private int linkLimit;
@@ -164,6 +164,10 @@ public class Source {
         private int status;
 
         private Builder() {
+            this.id = Calendar.getInstance().getTimeInMillis();
+            this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
+            this.status = 1;
         }
 
         public static Builder aSource() {
@@ -174,9 +178,8 @@ public class Source {
             this.id = id;
             return this;
         }
-
-        public Builder withName(String name) {
-            this.name = name;
+        public Builder withSourceName(String sourceName) {
+            this.sourceName = sourceName;
             return this;
         }
 
@@ -243,7 +246,7 @@ public class Source {
         public Source build() {
             Source source = new Source();
             source.setId(id);
-            source.setName(name);
+            source.setSourceName(sourceName);
             source.setUrl(url);
             source.setLinkSelector(linkSelector);
             source.setLinkLimit(linkLimit);

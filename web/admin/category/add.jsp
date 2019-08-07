@@ -16,14 +16,14 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form action="/admin/category/add" method="post" enctype="multipart/form-data">
+                <form action="/admin/category/add" method="post" enctype="application/x-www-form-urlencoded">
                     <div class="form-group">
                         <label>Tên danh mục</label>
                         <input type="text" class="form-control" name="name">
                     </div>
                     <div class="form-group">
-                        <label>Tên danh mục</label>
-                        <textarea class="form-control" name="description">
+                        <label>Mô tả</label>
+                        <input type="text" class="form-control" name="description">
                     </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>

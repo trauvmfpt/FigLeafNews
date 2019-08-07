@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <t:admin-master>
     <jsp:body>
@@ -23,20 +24,25 @@
                 <tr>
                     <th style="text-align: center">ID</th>
                     <th style="text-align: center">Tên danh mục</th>
+                    <th style="text-align: center">Mô tả</th>
                     <th style="text-align: center">Thao tác</th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="odd gradeX row-item" id="row-item-{{$item->id}}">
-                    <td style="text-align: center">
-                        12930129301
-                    </td>
-                    <td style="text-align: center">Giải trí</td>
-                    <td class="black-icon" style="text-align: center">
-                        <a href="#" class="fa fa-pencil btn-quick-edit mr-2"></a>
-                        <a href="#" id="{{$item -> id}}" class="fa fa-trash mr-2"></a>
-                    </td>
-                </tr>
+                <c:forEach var="cate" items="${categories}">
+                    <tr class="odd gradeX row-item">
+                        <td style="text-align: center">
+                            <a href="/admin/category/edit?id=${cate.id}">${cate.id}</a>
+                        </td>
+                        <td style="text-align: center">${cate.name}</td>
+                        <td style="text-align: center">${cate.description}</td>
+                        <td class="black-icon" style="text-align: center">
+                            <a href="/admin/category/edit?id=${cate.id}" class="fa fa-pencil btn-quick-edit mr-2"></a>
+                            <a href="#" class="fa fa-trash mr-2"></a>
+                        </td>
+                    </tr>
+                </c:forEach>
+
                 </tbody>
             </table>
         </div>
