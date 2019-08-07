@@ -5,6 +5,9 @@
   Time: 6:51 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="entity.Category" %>
+<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
@@ -17,39 +20,34 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form action="/admin/article/add" method="post" enctype="multipart/form-data">
-                    <div class="form-group">
-                        <label>Tiêu đề tin</label>
-                        <input type="text" class="form-control" name="name">
+                <form action="/admin/article/add" method="post">
+                    <div>
+                        Url <input type="text" name="url">
                     </div>
-                    <div class="form-group">
-                        <label>Danh mục</label>
-                        <select name="category" class="form-control">
-                            <option selected disabled>Chọn danh mục tin</option>
-                            <option>1</option>
-                            <option>1</option>
-                            <option>1</option>
-                            <option>1</option>
+                    <div>
+                        Thumbnail <input type="text" name="thumbnail">
+                    </div>
+                    <div>
+                        Category
+                        <select name="categoryId">
+                            <c:forEach var="cate" items="${categories}">
+                                <option value="${cate.id}"><c:out value = "${cate.name}"/></option>
+                            </c:forEach>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label>Thumbnail</label>
-                        <input class="form-control" type="file" name="image" id="add_images">
+                    <div>
+                        Title <input type="text" name="title">
                     </div>
-                    <div class="preview_images hidden"></div>
-                    <div class="form-group">
-                        <label>Mô tả</label>
-                        <textarea class="form-control" name="description" rows="5"></textarea>
+                    <div>
+                        Description <input type="text" name="description">
                     </div>
-                    <div class="form-group">
-                        <div class="form-group">
-                            <label>Nội dung</label>
-                            <textarea id="editor" placeholder="Write Something..." autofocus></textarea>
-                        </div>
+                    <div>
+                        Content
+                        <input width="500px" height="500px" name="content">
                     </div>
-                    <div class="form-group" style="text-align: center;">
-                        <button type="submit" class="btn btn-primary btn-block">Đăng</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
                     </div>
                 </form>
             </div>
@@ -82,3 +80,9 @@
         </script>
     </jsp:body>
 </t:admin-master>
+
+
+
+
+</body>
+</html>

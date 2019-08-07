@@ -13,7 +13,6 @@
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-
     <servlet>
         <servlet-name>ArticleListController</servlet-name>
         <servlet-class>controller.admin.article.ListController</servlet-class>
@@ -55,7 +54,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>SinglePostController</servlet-name>
-        <url-pattern>/post/*</url-pattern>
+        <url-pattern>/detail</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>CategoryPostController</servlet-name>
