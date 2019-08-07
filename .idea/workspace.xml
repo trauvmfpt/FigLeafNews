@@ -7,34 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1595a2-536d-4939-8a2c-9567ed1519a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/EditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/ListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/EditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/EditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/ListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seeder/ArticleSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seeder/ArticleSeeder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Source.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/article/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -66,6 +58,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="entity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -92,6 +89,8 @@
     </configuration>
     <configuration name="Google App Engine Standard Local Server11" type="gcp-app-engine-local-run" factoryName="Local" APPLICATION_SERVER_NAME="Google App Engine Standard Local Server11" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <server-settings>
         <artifact>FigLeafNews:war exploded</artifact>
       </server-settings>
@@ -166,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565099373156</updated>
       <workItem from="1565099379780" duration="416000" />
-      <workItem from="1565142073701" duration="16347000" />
+      <workItem from="1565142073701" duration="28686000" />
     </task>
     <servers />
   </component>
