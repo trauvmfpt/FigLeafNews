@@ -27,6 +27,7 @@ public class AddController extends HttpServlet {
     private static final Logger LOGGER = Logger.getLogger(AddController.class.getSimpleName());
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setAttribute("categories",ofy().load().type(Category.class).list());
         req.getRequestDispatcher("/admin/article/add.jsp").forward(req, resp);
     }
 
@@ -46,7 +47,7 @@ public class AddController extends HttpServlet {
             LOGGER.warning(ex.getMessage());
         }
 //        Xử lý ảnh
-        Part filePart = req.getPart("file"); // Retrieves <input type="file" name="file">
+        Part filePart = req.getPart("image"); // Retrieves <input type="file" name="file">
         String fileName = Paths.get(filePart.getSubmittedFileName()).getFileName().toString(); // MSIE fix.
         InputStream fileContent = filePart.getInputStream();
 
@@ -75,6 +76,7 @@ public class AddController extends HttpServlet {
                 .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .build();
         ofy().save().entity(article).now();
-        resp.getWriter().println("Okie");
+        resp.sendRedirect("/admin/article/list");
+//        resp.getWriter().println("Okie");
     }
 }

@@ -1,503 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FigLeafNews:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1595a2-536d-4939-8a2c-9567ed1519a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tags/admin-master.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables-responsive/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables-responsive/dataTables.responsive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.material.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.uikit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/dataTables.uikit.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/Sorting icons.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.material.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.material.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.uikit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/dataTables.uikit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/datatables/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/loginForm_css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-2-css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-2-css/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-2-css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-2-css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-2-css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-2-css/jquery-jvectormap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/custom-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/light-bootstrap-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/nucleo-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/nucleo-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/nucleo-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/nucleo-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/master-layout-3-css/nucleo-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/masterLayout_css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/masterLayout_css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/masterLayout_css/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/masterLayout_css/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/masterLayout_css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/masterLayout_css/sb-admin-2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/css/receipt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/datatables-plugins/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/icon-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/._OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Linearicons-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Poppins-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/montserrat/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/font/user-master-layout-font/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/0b23a3c7c111f23618f91f722fe02a09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/bao-kim-icon.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/bg-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/black-friday.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/farfetch-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/icon-header-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/icon-header-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/icon-user-160x160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/insta-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/insta-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/insta-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/insta-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/insta-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/lookbook.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/master-slide-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/men-collection.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/run-out.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/summer-collection.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/img/winter-collection.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/account_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/brand_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/category_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/dashboard_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/list_js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/adminlte.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/fastclick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/slick-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-2-js/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap-notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap-selectpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap-switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap-tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/chartist.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/common-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/jquery-jvectormap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/jquery.3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/jquery.bootstrap-wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/jquery.sharrre.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/light-bootstrap-dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/nouislider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/master-layout-3-js/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/sb-admin-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/masterLayout_js/sb-admin-2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/my_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/numeral.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/order_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/js/write-post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/Gruntfile.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/jekyll.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/lib/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/button.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/configs.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/events.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_data/methods.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/doc-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_includes/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/_layouts/tour.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-demo.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-download.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_coffee/page-form.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/function.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/highlight.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/mobile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/_sass/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/fork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/images/title@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/dompurify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/mobilecheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-doc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/page-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/scripts/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/assets/styles/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-config.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-dev-env.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-event.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-method.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/docs/doc-usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/extension.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/alignment-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/bold-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/code-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/font-scale-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/table-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/buttons/title-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/core-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/formatter-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/indentation-spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/alignment-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/bold-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/code-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/font-scale-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/table-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/buttons/title-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/core-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/formatter-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/indentation-spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/src/util.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/spec/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/alignment.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/blockquote.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/bold.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/button.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/code.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/color.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/font-scale.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/hr.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/image.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/indent.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/italic.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/link.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/list.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/outdent.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/popover.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/strikethrough.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/table.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/title.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/buttons/underline.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/clipboard.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/core.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/formatter.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/i18n.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/indentation.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/inputManager.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/keystroke.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/selection.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/toolbar.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/undoManager.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/src/util.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/editor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/fonticon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/styles/simditor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/simditor-2.3.23/umd.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/animsition/css/animsition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/animsition/css/animsition.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/animsition/js/animsition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/animsition/js/animsition.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/ark/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/ark/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/ark/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/minty/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/sunny/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/sunny/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/sunny/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/widgets/facebook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/widgets/flickr.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/widgets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/widgets/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/beautymail/assets/images/widgets/twitter.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/countdowntime/countdowntime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/daterangepicker/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/isotope/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/jqueryui/jquery-ui.theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/css/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/css/lightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/js/lightbox-plus-jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/js/lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/js/lightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/lightbox2/js/lightbox.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/noui/nouislider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/noui/nouislider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/noui/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/noui/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/parallax100/parallax100.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/slick/slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/admin/resources/vendor/sweetalert/sweetalert.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/util/StringUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/master.tag" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/tags/master.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/article/ListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/AddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/category/ListController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/category/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/EditController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/category/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/category/ListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seeder/ArticleSeeder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seeder/ArticleSeeder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/article/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/edit.jsp" afterDir="false" />
@@ -505,10 +35,6 @@
       <change beforePath="$PROJECT_DIR$/web/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -516,11 +42,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1P4n70t5qRTcKBxEzSPhfdGKNO5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -546,6 +91,7 @@
       </method>
     </configuration>
     <configuration name="Google App Engine Standard Local Server11" type="gcp-app-engine-local-run" factoryName="Local" APPLICATION_SERVER_NAME="Google App Engine Standard Local Server11" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <server-settings>
         <artifact>FigLeafNews:war exploded</artifact>
       </server-settings>
@@ -620,6 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565099373156</updated>
       <workItem from="1565099379780" duration="416000" />
+      <workItem from="1565142073701" duration="16347000" />
     </task>
     <servers />
   </component>
@@ -631,10 +178,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/New folder" />
+    </ignored-roots>
   </component>
 </project>

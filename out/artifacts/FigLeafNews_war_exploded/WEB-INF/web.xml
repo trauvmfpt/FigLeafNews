@@ -13,42 +13,6 @@
         <servlet-name>HomeController</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-
-    <servlet>
-        <servlet-name>ArticleListController</servlet-name>
-        <servlet-class>controller.admin.article.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ArticleListController</servlet-name>
-        <url-pattern>/admin/article/list</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>CategoryListController</servlet-name>
-        <servlet-class>controller.admin.category.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CategoryListController</servlet-name>
-        <url-pattern>/admin/category/list</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>SourceAddController</servlet-name>
-        <servlet-class>controller.admin.source.AddController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceAddController</servlet-name>
-        <url-pattern>/admin/source/add</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>SourceListController</servlet-name>
-        <servlet-class>controller.admin.source.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceListController</servlet-name>
-        <url-pattern>/admin/source/list</url-pattern>
-    </servlet-mapping>
     <servlet>
         <servlet-name>SinglePostController</servlet-name>
         <servlet-class>controller.user.SinglePostController</servlet-class>
@@ -86,6 +50,24 @@
         <servlet-name>AddCategoryController</servlet-name>
         <url-pattern>/admin/category/add</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>EditCategoryController</servlet-name>
+        <servlet-class>controller.admin.category.EditController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditCategoryController</servlet-name>
+        <url-pattern>/admin/category/edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CategoryListController</servlet-name>
+        <servlet-class>controller.admin.category.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryListController</servlet-name>
+        <url-pattern>/admin/category/list</url-pattern>
+    </servlet-mapping>
+
     <!--  Article Route  -->
     <servlet>
         <servlet-name>AddArticleController</servlet-name>
@@ -94,6 +76,40 @@
     <servlet-mapping>
         <servlet-name>AddArticleController</servlet-name>
         <url-pattern>/admin/article/add</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    <servlet-name>ArticleListController</servlet-name>
+    <servlet-class>controller.admin.article.ListController</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>ArticleListController</servlet-name>
+        <url-pattern>/admin/article/list</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ArticleEditController</servlet-name>
+        <servlet-class>controller.admin.article.EditController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticleEditController</servlet-name>
+        <url-pattern>/admin/article/edit</url-pattern>
+    </servlet-mapping>
+
+<!--    Source route-->
+    <servlet>
+        <servlet-name>SourceAddController</servlet-name>
+        <servlet-class>controller.admin.source.AddController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SourceAddController</servlet-name>
+        <url-pattern>/admin/source/add</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SourceListController</servlet-name>
+        <servlet-class>controller.admin.source.ListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SourceListController</servlet-name>
+        <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
 
 <!--    End Route for Admin-->
