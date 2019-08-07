@@ -85,15 +85,6 @@
         <url-pattern>/admin/category/edit</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>CategoryListController</servlet-name>
-        <servlet-class>controller.admin.category.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CategoryListController</servlet-name>
-        <url-pattern>/admin/category/list</url-pattern>
-    </servlet-mapping>
-
     <!--  Article Route  -->
     <servlet>
         <servlet-name>ArticleListController</servlet-name>
@@ -112,14 +103,7 @@
         <servlet-name>AddArticleController</servlet-name>
         <url-pattern>/admin/article/add</url-pattern>
     </servlet-mapping>
-    <servlet>
-    <servlet-name>ArticleListController</servlet-name>
-    <servlet-class>controller.admin.article.ListController</servlet-class>
-</servlet>
-    <servlet-mapping>
-        <servlet-name>ArticleListController</servlet-name>
-        <url-pattern>/admin/article/list</url-pattern>
-    </servlet-mapping>
+
     <servlet>
         <servlet-name>ArticleEditController</servlet-name>
         <servlet-class>controller.admin.article.EditController</servlet-class>
@@ -129,31 +113,6 @@
         <url-pattern>/admin/article/edit</url-pattern>
     </servlet-mapping>
 
-<!--    Source route-->
-    <servlet>
-        <servlet-name>SourceAddController</servlet-name>
-        <servlet-class>controller.admin.source.AddController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceAddController</servlet-name>
-        <url-pattern>/admin/source/add</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>SourceListController</servlet-name>
-        <servlet-class>controller.admin.source.ListController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceListController</servlet-name>
-        <url-pattern>/admin/source/list</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>SourceEditController</servlet-name>
-        <servlet-class>controller.admin.source.EditController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SourceEditController</servlet-name>
-        <url-pattern>/admin/source/edit</url-pattern>
-    </servlet-mapping>
     <!--  Source Route  -->
     <servlet>
         <servlet-name>SourceAddController</servlet-name>
@@ -172,6 +131,27 @@
         <servlet-name>SourceListController</servlet-name>
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>GetQueue</servlet-name>
+        <servlet-class>controller.admin.crawler.GetQueue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetQueue</servlet-name>
+        <url-pattern>/admin/task/get</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AddQueue</servlet-name>
+        <servlet-class>controller.admin.crawler.AddQueue</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddQueue</servlet-name>
+        <url-pattern>/admin/task/add</url-pattern>
+    </servlet-mapping>
+
+    <!--    End User Route-->
+
+<!-- Route for Admin   -->
+    <!--  Category Route  -->
 
     <servlet>
         <servlet-name>SpecificSourceController</servlet-name>
@@ -228,6 +208,7 @@
 
 
 
+<!--    filters -->
     <filter>
         <filter-name>LanguageFilter</filter-name>
         <filter-class>filter.LanguageFilter</filter-class>

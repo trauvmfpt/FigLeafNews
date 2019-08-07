@@ -7,25 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1595a2-536d-4939-8a2c-9567ed1519a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/cron.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/queue.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/EditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/ListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/EditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/article/ListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/CrawlerSourceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/SaveSpecialContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/SaveSpecialContentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/ListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

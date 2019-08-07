@@ -1,8 +1,8 @@
 package controller.admin.article;
 
+
 import com.google.gson.Gson;
 import entity.Article;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import static com.googlecode.objectify.ObjectifyService.ofy;
+
+
 
 public class ListController extends HttpServlet {
     @Override

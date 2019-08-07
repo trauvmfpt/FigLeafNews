@@ -26,6 +26,7 @@ public class EditController extends HttpServlet {
         req.setAttribute("source", source);
         req.setAttribute("categories",ofy().load().type(Category.class).list());
         req.getRequestDispatcher("/admin/source/edit.jsp").forward(req,resp);
+
     }
 
     @Override
@@ -36,6 +37,7 @@ public class EditController extends HttpServlet {
         try {
             sourceId = Long.parseLong(strSourceId);
         } catch (NumberFormatException ex) {}
+        String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
         int linkLimit = 10;
         try {
@@ -51,6 +53,7 @@ public class EditController extends HttpServlet {
         }catch (NumberFormatException ex){}
 
         Source source = ofy().load().type(Source.class).id(sourceId).now();
+        source.setSourceName(name);
         source.setUrl(url);
         source.setLinkSelector(linkSelector);
         source.setLinkLimit(linkLimit);

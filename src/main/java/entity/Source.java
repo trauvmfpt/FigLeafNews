@@ -24,13 +24,6 @@ public class Source {
     private long deletedAtMLS;
     private int status;
 
-    public String getSourceName() {
-        return sourceName;
-    }
-
-    public void setSourceName(String sourceName) {
-        this.sourceName = sourceName;
-    }
 
     public long getId() {
         return id;
@@ -38,6 +31,14 @@ public class Source {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getSourceName() {
+        return sourceName;
+    }
+
+    public void setSourceName(String sourceName) {
+        this.sourceName = sourceName;
     }
 
     public String getUrl() {
@@ -56,12 +57,12 @@ public class Source {
         this.linkSelector = linkSelector;
     }
 
-    public void setLinkLimit(int linkLimit) {
-        this.linkLimit = linkLimit;
-    }
-
     public int getLinkLimit() {
         return linkLimit;
+    }
+
+    public void setLinkLimit(int linkLimit) {
+        this.linkLimit = linkLimit;
     }
 
     public String getTitleSelector() {
@@ -134,17 +135,6 @@ public class Source {
 
     public void setStatus(int status) {
         this.status = status;
-    }
-
-    public Source() {
-        this.id = Calendar.getInstance().getTimeInMillis();
-        this.createdAtMLS = Calendar.getInstance().getTimeInMillis();
-        this.updatedAtMLS = Calendar.getInstance().getTimeInMillis();
-        this.status = 1;
-    }
-
-    public boolean isValid() {
-        return true;
     }
 
     public static final class Builder {

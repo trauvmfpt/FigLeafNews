@@ -22,7 +22,8 @@ public class AddController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        System.out.println(req.getParameter("categoryId1"));
+
+        resp.setCharacterEncoding("UTF-8");
         String url = req.getParameter("url");
         String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
