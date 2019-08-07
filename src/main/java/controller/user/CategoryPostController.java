@@ -1,6 +1,6 @@
 package controller.user;
 
-import entity.Category;
+import entity.Article;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -19,7 +19,7 @@ public class CategoryPostController extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String category = req.getPathInfo();
         LOGGER.log(Level.INFO, String.format("%s", category));
-        req.setAttribute("articles", ofy().load().type(Category.class)
+        req.setAttribute("articles", ofy().load().type(Article.class)
                 .filter("category", category)
                 .list());
         req.getRequestDispatcher("/user/multil-post.jsp").forward(req,resp);
