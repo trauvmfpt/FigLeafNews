@@ -127,6 +127,14 @@
         <servlet-name>SourceListController</servlet-name>
         <url-pattern>/admin/source/list</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SourceEditController</servlet-name>
+        <servlet-class>controller.admin.source.EditController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SourceEditController</servlet-name>
+        <url-pattern>/admin/source/edit</url-pattern>
+    </servlet-mapping>
 
 <!--    Crawler Route-->
     <servlet>

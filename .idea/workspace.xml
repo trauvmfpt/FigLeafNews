@@ -7,22 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1595a2-536d-4939-8a2c-9567ed1519a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/crawler/PreviewSpecialContentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/crawler/PreviewSpecialContentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/AddController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Category$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Category$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/ListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/controller/admin/source/ListController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/classes/entity/Source.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/article/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/PreviewSpecialContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/crawler/PreviewSpecialContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FigLeafNews_war_exploded/admin/source/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/AddController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/EditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/admin/source/ListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/admin/source/ListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entity/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Source.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/article/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/article/add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/admin/source/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/source/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/source/list.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565099373156</updated>
       <workItem from="1565099379780" duration="416000" />
-      <workItem from="1565142073701" duration="23928000" />
+      <workItem from="1565142073701" duration="28686000" />
     </task>
     <servers />
   </component>
