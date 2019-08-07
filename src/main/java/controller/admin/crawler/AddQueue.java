@@ -39,6 +39,7 @@ public class AddQueue extends HttpServlet {
                 sources) {
             Document document = Jsoup.connect(source.getUrl()).ignoreContentType(true).get();
             Elements elements = document.select(source.getLinkSelector());
+
             for (Element el :
                     elements) {
                 // check link limit.

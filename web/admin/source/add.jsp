@@ -61,15 +61,6 @@
                         <label>Author selector</label>
                         <input class="form-control" name="authorSelector" />
                     </div>
-                    <div class="form-group">
-                        <label>Danh mục</label>
-                        <select name="categoryId" class="form-control">
-                            <option selected disabled>Chọn danh mục tin</option>
-                            <c:forEach var="cate" items="${categories}">
-                                <option value="${cate.id}"><c:out value = "${cate.name}"/></option>
-                            </c:forEach>
-                        </select>
-                    </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
                         <button type="reset" class="btn btn-primary btn-block">Viết lại</button>

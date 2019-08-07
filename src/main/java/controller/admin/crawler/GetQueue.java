@@ -8,6 +8,7 @@ import entity.Article;
 import entity.Source;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import util.MyUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -39,9 +40,12 @@ public class GetQueue extends HttpServlet {
             String description = document.select(source.getDescriptionSelector()).text();
             String content = document.select(source.getContentSelector()).text();
             String author = document.select(source.getAuthorSelector()).text();
+            String image = document.select(source.getThumbnailSelector()).first().attr("abs:src");
             article.setTitle(title);
             article.setDescription(description);
             article.setContent(content);
+            article.setUrl(MyUtil.getInstance().toSlug(title));
+            article.setThumbnail(image);
             article.setAuthor(author);
             ofy().save().entity(article).now();
         }

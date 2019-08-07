@@ -17,6 +17,7 @@ public class Source {
     private String titleSelector;
     private String descriptionSelector;
     private String contentSelector;
+    private String thumbnailSelector;
     private String authorSelector;
     private Ref<Category> category;
     private long createdAtMLS;
@@ -24,6 +25,13 @@ public class Source {
     private long deletedAtMLS;
     private int status;
 
+    public String getThumbnailSelector() {
+        return thumbnailSelector;
+    }
+
+    public void setThumbnailSelector(String thumbnailSelector) {
+        this.thumbnailSelector = thumbnailSelector;
+    }
 
     public long getId() {
         return id;
@@ -146,6 +154,7 @@ public class Source {
         private String titleSelector;
         private String descriptionSelector;
         private String contentSelector;
+        private String thumbnailSelector;
         private String authorSelector;
         private Ref<Category> category;
         private long createdAtMLS;
@@ -204,6 +213,11 @@ public class Source {
             return this;
         }
 
+        public Builder withThumbnailSelector(String thumbnailSelector) {
+            this.thumbnailSelector = thumbnailSelector;
+            return this;
+        }
+
         public Builder withAuthorSelector(String authorSelector) {
             this.authorSelector = authorSelector;
             return this;
@@ -244,6 +258,7 @@ public class Source {
             source.setTitleSelector(titleSelector);
             source.setDescriptionSelector(descriptionSelector);
             source.setContentSelector(contentSelector);
+            source.setThumbnailSelector(thumbnailSelector);
             source.setAuthorSelector(authorSelector);
             source.setCategory(category);
             source.setCreatedAtMLS(createdAtMLS);
