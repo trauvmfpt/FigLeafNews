@@ -93,7 +93,7 @@
                     method: 'POST',
                     accepts: 'application/json',
                     contentType: 'application/json',
-                    url: "http://localhost:8080/admin/source/specific-source",
+                    url: "/admin/source/specific-source",
                     data: JSON.stringify(selector),
                     success: function (result) {
                         $("#title").text(result.title);
