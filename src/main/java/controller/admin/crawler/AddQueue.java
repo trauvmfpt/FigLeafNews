@@ -50,19 +50,15 @@ public class AddQueue extends HttpServlet {
                 Element linkElement = linkElements.get(i);
                 Element thumbnailElement = thumbnailElements.get(i);
                 String link = linkElement.attr("abs:href").trim();
-                System.out.println(link);
-                String thumbnail = thumbnailElement.attr("abs:src").trim();
-
+                String thumbnail = thumbnailElement.attr("src").trim();
                  Article article = Article.Builder.anArticle()
                         .withUrl(link)
                         .withSourceId(source.getId())
                          .withThumbnail(thumbnail)
-                         .withCategory(Ref.create(Key.create(Category.class, source.getCategory().get().getId())))
+                         .withCategoryId(source.getCategory().get().getId())
                         .build();
-                System.out.println(new Gson().toJson(article));
                 q.add(TaskOptions.Builder.withMethod(TaskOptions.Method.PULL).payload(new Gson().toJson(article)));
             }
         }
-
     }
 }
