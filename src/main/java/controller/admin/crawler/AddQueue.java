@@ -4,7 +4,10 @@ import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
 import com.google.appengine.api.taskqueue.TaskOptions;
 import com.google.gson.Gson;
+import com.googlecode.objectify.Key;
+import com.googlecode.objectify.Ref;
 import entity.Article;
+import entity.Category;
 import entity.Source;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -16,6 +19,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -38,15 +43,18 @@ public class AddQueue extends HttpServlet {
         for (Source source :
                 sources) {
             Document document = Jsoup.connect(source.getUrl()).ignoreContentType(true).get();
-            Elements elements = document.select(source.getLinkSelector());
-
-            for (Element el :
-                    elements) {
-                // check link limit.
-                String link = el.attr("href").trim();
-                Article article = Article.Builder.anArticle()
+            Elements linkElements = document.select(source.getLinkSelector());
+            Elements thumbnailElements = document.select(source.getThumbnailSelector());
+            for(int i = 0; i < linkElements.size(); i++){
+                Element linkElement = linkElements.get(i);
+                Element thumbnailElement = thumbnailElements.get(i);
+                String link = linkElement.attr("href").trim();
+                String thumbnail = thumbnailElement.attr("src").trim();
+                 Article article = Article.Builder.anArticle()
                         .withUrl(link)
                         .withSourceId(source.getId())
+                         .withThumbnail(thumbnail)
+                         .withCategory(Ref.create(Key.create(Category.class, source.getCategory().get().getId())))
                         .build();
                 q.add(TaskOptions.Builder.withMethod(TaskOptions.Method.PULL).payload(new Gson().toJson(article)));
             }

@@ -18,7 +18,7 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form action="/admin/source/edit" method="post" enctype="application/x-www-form-urlencoded">
+                <form action="/admin/source/edit" method="post" enctype="application/x-www-form-urlencoded" class="input-form">
                     <input type="hidden" name="id" value="${source.id}">
                     <div class="form-group">
                         <label>Tên nguồn</label>
@@ -31,6 +31,10 @@
                     <div class="form-group">
                         <label>Link selector</label>
                         <input value="${source.linkSelector}" class="form-control" name="linkSelector" />
+                    </div>
+                    <div class="form-group">
+                        <label>Thumbnail selector</label>
+                        <input value="${source.thumbnailSelector}" class="form-control" name="thumbnailSelector" />
                     </div>
                     <div class="form-group">
                         <label>Link limit</label>
@@ -64,15 +68,16 @@
                     </div>
                     <div class="form-group">
                         <label>Author selector</label>
-                        <input class="form-control" name="authorSelector" />
+                        <input class="form-control" name="authorSelector" value="${source.authorSelector}"/>
                     </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                        <button type="button" class="btn btn-primary btn-block reset">Viết lại</button>
                     </div>
                 </form>
             </div>
         </div>
+        <a href="/admin/source/list"><h5>Trở lại danh sách nguồn tin</h5></a>
     </jsp:body>
 </t:admin-master>
 

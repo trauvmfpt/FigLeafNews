@@ -18,42 +18,67 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form id="ArticleForm" action="/admin/article/add" method="post" enctype="multipart/form-data">
+                <form class="input-form" id="ArticleForm" action="/admin/article/add" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>Tiêu đề tin</label>
-                        <input type="text" class="form-control" name="title">
+                        <input type="text" class="form-control" name="title" required>
                     </div>
                     <div class="form-group">
                         <label>Danh mục</label>
-                        <select name="categoryId" class="form-control">
+                        <select name="categoryId" class="form-control" required>
                             <option selected disabled>Chọn danh mục tin</option>
                             <c:forEach var="cate" items="${categories}">
                                 <option value="${cate.id}">${cate.name}</option>
                             </c:forEach>
-
                         </select>
                     </div>
                     <div class="form-group">
                         <label>Thumbnail</label>
-                        <input  class="form-control" type="file" name="image" id="add_images">
+                        <input required class="form-control" type="file" name="image" id="add_images">
                     </div>
                     <div class="preview_images hidden"></div>
                     <div class="form-group">
                         <label>Mô tả</label>
-                        <textarea form="ArticleForm" class="form-control" name="description" rows="5"></textarea>
+                        <textarea form="ArticleForm" class="form-control" name="description" rows="5" required></textarea>
                     </div>
                     <div class="form-group">
                         <div class="form-group">
                             <label>Nội dung</label>
-                            <textarea name="content" form="ArticleForm" id="editor" placeholder="Write Something..." autofocus></textarea>
+                            <textarea required name="content" form="ArticleForm" id="editor" placeholder="Write Something..." autofocus></textarea>
                         </div>
                     </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                        <button type="button" class="btn btn-primary btn-block reset">Viết lại</button>
                     </div>
                 </form>
             </div>
         </div>
+        <a href="/admin/article/list"><h5>Trở lại danh sách tin</h5></a>
+        <script>
+            $(function() {
+                var imagesPreview = function(input, display_images) {
+                    if (input.files) {
+                        var filesAmount = input.files.length;
+                        for (i = 0; i < filesAmount; i++) {
+                            var reader = new FileReader();
+                            reader.onload = function(e) {
+                                $($.parseHTML('<img>')).attr('src', e.target.result).appendTo(display_images);
+                                $("img").addClass("preview_image");
+                            }
+                            reader.readAsDataURL(input.files[i]);
+                        }
+                    }
+                };
+                $('#add_images').on('change', function() {
+                    $('.preview_images').removeClass("hidden");
+                    imagesPreview(this, 'div.preview_images');
+                });
+                $(":reset").click(function (){
+                    $(".preview_images").addClass('hidden');
+                    $(".preview_image").remove();
+                });
+            });
+        </script>
     </jsp:body>
 </t:admin-master>

@@ -39,6 +39,7 @@ public class EditController extends HttpServlet {
         } catch (NumberFormatException ex) {}
         String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
+        String thumbnailSelector = req.getParameter("thumbnailSelector");
         int linkLimit = 10;
         try {
             linkLimit = Integer.parseInt(req.getParameter("linkLimit"));
@@ -58,6 +59,7 @@ public class EditController extends HttpServlet {
         source.setLinkSelector(linkSelector);
         source.setLinkLimit(linkLimit);
         source.setTitleSelector(titleSelector);
+        source.setThumbnailSelector(thumbnailSelector);
         source.setDescriptionSelector(descriptionSelector);
         source.setContentSelector(contentSelector);
         source.setAuthorSelector(authorSelector);

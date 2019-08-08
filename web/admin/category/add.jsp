@@ -16,7 +16,7 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form action="/admin/category/add" method="post" enctype="application/x-www-form-urlencoded">
+                <form action="/admin/category/add" class="input-form" method="post" enctype="application/x-www-form-urlencoded">
                     <div class="form-group">
                         <label>Tên danh mục</label>
                         <input type="text" class="form-control" name="name">
@@ -27,10 +27,11 @@
                     </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Đăng</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                        <button type="button" class="btn btn-primary btn-block reset">Viết lại</button>
                     </div>
                 </form>
             </div>
         </div>
+        <a href="/admin/category/list"><h5>Trở lại danh sách danh mục</h5></a>
     </jsp:body>
 </t:admin-master>

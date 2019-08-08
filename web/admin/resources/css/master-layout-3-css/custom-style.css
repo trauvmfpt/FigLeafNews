@@ -68,3 +68,7 @@ body{
 .modal-header{
     justify-content: center;
 }
+
+.error{
+    color: red;
+}
