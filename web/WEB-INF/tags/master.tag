@@ -83,11 +83,14 @@
                                 <li class="active"><a href="index.html">Home</a></li>
                                 <li><a href="#">Categories</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Cat1</a></li>
-                                        <li><a href="index.html">Cat2</a></li>
-                                        <li><a href="index.html">Cat3</a></li>
+                                        <c:forEach var="cat" items="${cateNav}">
+                                            <li><a href="/${cat.url}">${cat.name}</a></li>
+                                        </c:forEach>
                                     </ul>
                                 </li>
+                                <c:forEach var="cat" items="${cateNav}">
+                                    <li><a href="/${cat.url}">${cat.name}</a></li>
+                                </c:forEach>
                                 <li><a href="/about-us">About-us</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul>
