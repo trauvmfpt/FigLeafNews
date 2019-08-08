@@ -38,14 +38,12 @@ public class GetQueue extends HttpServlet {
             Document document = Jsoup.connect(article.getUrl()).ignoreContentType(true).get();
             String title = document.select(source.getTitleSelector()).text();
             String description = document.select(source.getDescriptionSelector()).text();
-            String content = document.select(source.getContentSelector()).text();
+            String content = document.select(source.getContentSelector()).html();
             String author = document.select(source.getAuthorSelector()).text();
-            String image = document.select(source.getThumbnailSelector()).first().attr("abs:src");
             article.setTitle(title);
             article.setDescription(description);
             article.setContent(content);
             article.setUrl(MyUtil.getInstance().toSlug(title));
-            article.setThumbnail(image);
             article.setAuthor(author);
             ofy().save().entity(article).now();
         }

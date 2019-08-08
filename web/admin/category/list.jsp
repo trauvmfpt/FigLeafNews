@@ -19,6 +19,7 @@
         <div class="panel-body">
             <div class="alert alert-success hidden">
             </div>
+            <a href="/admin/category/add"><h4>Tạo danh mục mới</h4></a>
             <table width="100%" class="table table-hover" id="dataTables-example" style="background-color: white">
                 <thead>
                 <tr>

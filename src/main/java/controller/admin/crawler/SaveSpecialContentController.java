@@ -2,7 +2,10 @@ package controller.admin.crawler;
 
 import com.google.appengine.api.users.UserService;
 import com.google.gson.Gson;
+import com.googlecode.objectify.Key;
+import com.googlecode.objectify.Ref;
 import entity.Article;
+import entity.Category;
 import org.json.JSONObject;
 import util.MyUtil;
 import util.StringUtil;
@@ -30,12 +33,14 @@ public class SaveSpecialContentController extends HttpServlet {
         String description = jsonObject.getString("description");
         String content = jsonObject.getString("content");
         String author = jsonObject.getString("author");
+        String categoryId = jsonObject.getString("categoryId");
         Article article = Article.Builder.anArticle()
                 .withTitle(title)
                 .withUrl(MyUtil.getInstance().toSlug(title))
                 .withContent(content)
                 .withDescription(description)
                 .withAuthor(author)
+                .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .build();
         ofy().save().entity(article).now();
         resp.getWriter().println(new Gson().toJson(article));

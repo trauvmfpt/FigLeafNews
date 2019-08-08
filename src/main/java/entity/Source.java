@@ -3,6 +3,7 @@ package entity;
 import com.googlecode.objectify.Ref;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
+import com.googlecode.objectify.annotation.Index;
 
 import java.util.Calendar;
 
@@ -23,6 +24,7 @@ public class Source {
     private long createdAtMLS;
     private long updatedAtMLS;
     private long deletedAtMLS;
+    @Index
     private int status;
 
     public String getThumbnailSelector() {

@@ -19,6 +19,7 @@
         <div class="panel-body">
             <div class="alert alert-success hidden">
             </div>
+            <a href="/admin/source/add"><h4>Thêm nguồn tin mới</h4></a>
             <table width="100%" class="table table-hover" id="dataTables-example" style="background-color: white">
                 <thead>
                 <tr>
@@ -27,6 +28,7 @@
                     <th style="text-align: center">URL</th>
                     <th style="text-align: center">Limit</th>
                     <th style="text-align: center">Article Link Selector</th>
+                    <th style="text-align: center">Article Thumbnail Selector</th>
                     <th style="text-align: center">Article Title Selector</th>
                     <th style="text-align: center">Article Description Selector</th>
                     <th style="text-align: center">Article Content Selector</th>
@@ -43,6 +45,7 @@
                         <td style="text-align: center">${se.url}</td>
                         <td style="text-align: center">${se.linkLimit}</td>
                         <td style="text-align: center">${se.linkSelector}</td>
+                        <td style="text-align: center">${se.thumbnailSelector}</td>
                         <td style="text-align: center">${se.titleSelector}</td>
                         <td style="text-align: center">${se.descriptionSelector}</td>
                         <td style="text-align: center">${se.contentSelector}</td>

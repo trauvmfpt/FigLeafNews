@@ -19,7 +19,7 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form id="CategoryForm" action="/admin/category/edit" method="post" enctype="application/x-www-form-urlencoded">
+                <form id="CategoryForm" class="input-form" action="/admin/category/edit" method="post" enctype="application/x-www-form-urlencoded">
                     <input type="hidden" name="CateId" value="${category.id}">
                     <div class="form-group">
                         <label>Tiêu đề tin</label>
@@ -41,11 +41,12 @@
 <%--                    <div class="preview_images hidden"></div>--%>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Cập nhật</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                        <button type="button" class="btn btn-primary btn-block reset">Viết lại</button>
                     </div>
                 </form>
             </div>
         </div>
+        <a href="/admin/category/list"><h5>Trở lại danh sách danh mục</h5></a>
     </jsp:body>
 </t:admin-master>
 

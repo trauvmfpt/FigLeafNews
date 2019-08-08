@@ -17,10 +17,20 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form id="sourceForm">
+                <form id="sourceForm" class="input-form">
                     <div class="form-group">
                         <label>Đường dẫn nguồn</label>
                         <input type="text" class="form-control" name=url>
+                    </div>
+                    <div class="form-group">
+                        <label>Danh mục</label>
+                        <select name="categoryId" class="form-control">
+                            <option selected disabled>Chọn danh mục tin</option>
+                            <c:forEach var="cate" items="${categories}">
+                                <option value="${cate.id}">${cate.name}</option>
+                            </c:forEach>
+
+                        </select>
                     </div>
                     <div class="form-group">
                         <label>Title selector</label>
@@ -40,7 +50,7 @@
                     </div>
                     <div class="form-group" style="text-align: center;">
                         <button type="button" class="btn btn-primary btn-block" id="btn_preview">Preview</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                        <button type="button" class="btn btn-primary btn-block reset">Viết lại</button>
                     </div>
                 </form>
             </div>
@@ -60,6 +70,7 @@
                         <div id="content"></div>
                         <hr>
                         <div id="author"></div>
+                        <input type="hidden" id="categoryId"/>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal" >Close</button>
@@ -89,6 +100,7 @@
                         $("#description").text(result.description);
                         $("#content").html(result.content);
                         $("#author").text(result.author);
+                        $("#categoryId").text(result.categoryId);
                         $("#previewModal").modal("show");
                     },
                     error: function (xhr, textStatus, errorThrown) {
@@ -102,7 +114,8 @@
                     "title" : $("#title").text(),
                     "description" : $("#description").text(),
                     "content" : $("#content").html(),
-                    "author" : $("#author").text()
+                    "author" : $("#author").text(),
+                    "categoryId" : $("#categoryId").val()
                 };
                 $.ajax({
                     method: 'POST',

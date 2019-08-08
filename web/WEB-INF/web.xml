@@ -163,7 +163,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>GetQueue</servlet-name>
-        <url-pattern>/admin/task/get</url-pattern>
+            <url-pattern>/admin/task/get</url-pattern>
     </servlet-mapping>
     <servlet>
         <servlet-name>AddQueue</servlet-name>
@@ -285,6 +285,7 @@
         <security-constraint>
             <web-resource-collection>
                 <web-resource-name>admin</web-resource-name>
+                <url-pattern>/admin</url-pattern>
                 <url-pattern>/admin/article/*</url-pattern>
                 <url-pattern>/admin/category/*</url-pattern>
                 <url-pattern>/admin/account/*</url-pattern>

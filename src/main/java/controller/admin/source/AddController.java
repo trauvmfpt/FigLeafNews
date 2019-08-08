@@ -27,6 +27,7 @@ public class AddController extends HttpServlet {
         String url = req.getParameter("url");
         String name = req.getParameter("name");
         String linkSelector = req.getParameter("linkSelector");
+        String thumbnailSelector = req.getParameter("thumbnailSelector");
         int linkLimit = 10;
         try {
             linkLimit = Integer.parseInt(req.getParameter("linkLimit"));
@@ -45,6 +46,7 @@ public class AddController extends HttpServlet {
                 .withLinkSelector(linkSelector)
                 .withLinkLimit(linkLimit)
                 .withTitleSelector(titleSelector)
+                .withThumbnailSelector(thumbnailSelector)
                 .withDescriptionSelector(descriptionSelector)
                 .withContentSelector(contentSelector)
                 .withAuthorSelector(authorSelector)

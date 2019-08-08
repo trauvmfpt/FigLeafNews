@@ -34,6 +34,7 @@ public class PreviewSpecialContentController extends HttpServlet {
         String descriptionSelector = jsonObject.getString("descriptionSelector");
         String authorSelector = jsonObject.getString("authorSelector");
         String contentSelector = jsonObject.getString("contentSelector");
+        String strCategoryId = req.getParameter("categoryId");
 
         Document document = Jsoup.connect(url).ignoreContentType(true).get();
         String title = document.select(titleSelector).text();
@@ -46,6 +47,7 @@ public class PreviewSpecialContentController extends HttpServlet {
         responseObject.put("content", content);
         responseObject.put("description", description);
         responseObject.put("author", author);
+        responseObject.put("categoryId", strCategoryId);
         resp.getWriter().println(new Gson().toJson(responseObject));
     }
 }

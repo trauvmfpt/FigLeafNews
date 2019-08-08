@@ -24,7 +24,7 @@
         </div>
         <div class="panel-body">
             <div class="col-lg-6 col-md-offset-3">
-                <form action="/admin/article/edit" method="post" enctype="multipart/form-data">
+                <form class="input-form" action="/admin/article/edit" method="post" enctype="multipart/form-data">
                     <input type="hidden" name="id" value="${article.id}">
                     <div class="form-group">
                         <label>Tiêu đề tin</label>
@@ -56,21 +56,23 @@
                         <label>Thumbnail</label>
                         <input  class="form-control" type="file" name="image" id="add_images">
                     </div>
-                    <div class="preview_images hidden"></div>
+                    <div class="preview_images">
+                        <img src="${article.thumbnail}" class="preview_image"/>
+                    </div>
                     <div class="form-group">
                         <div class="form-group">
                             <label>Nội dung</label>
                             <textarea name="content" id="editor" placeholder="Write Something..." autofocus >${article.content}</textarea>
                         </div>
                     </div>
-                    <div class="preview_images hidden"></div>
                     <div class="form-group" style="text-align: center;">
                         <button type="submit" class="btn btn-primary btn-block">Cập nhật</button>
-                        <button type="reset" class="btn btn-primary btn-block">Viết lại</button>
+                        <button type="button" class="btn btn-primary btn-block reset">Viết lại</button>
                     </div>
                 </form>
             </div>
         </div>
+        <a href="/admin/article/list"><h5>Trở lại danh sách tin</h5></a>
         <script>
             $(function() {
                 var imagesPreview = function(input, display_images) {
@@ -79,8 +81,7 @@
                         for (i = 0; i < filesAmount; i++) {
                             var reader = new FileReader();
                             reader.onload = function(e) {
-                                $($.parseHTML('<img>')).attr('src', e.target.result).appendTo(display_images);
-                                $("img").addClass("preview_image");
+                                $(".preview_image").attr('src', e.target.result);
                             }
                             reader.readAsDataURL(input.files[i]);
                         }
@@ -89,10 +90,6 @@
                 $('#add_images').on('change', function() {
                     $('.preview_images').removeClass("hidden");
                     imagesPreview(this, 'div.preview_images');
-                });
-                $(":reset").click(function (){
-                    $(".preview_images").addClass('hidden');
-                    $(".preview_image").remove();
                 });
             });
         </script>

@@ -32,6 +32,10 @@
     <script type="text/javascript" src="${pageContext.request.contextPath}/admin/resources/simditor-2.3.23/site/assets/scripts/hotkeys.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/admin/resources/simditor-2.3.23/site/assets/scripts/uploader.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/admin/resources/simditor-2.3.23/lib/simditor.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
 
     <link href="${pageContext.request.contextPath}/admin/resources/css/master-layout-3-css/custom-style.css" rel="stylesheet" />
 
