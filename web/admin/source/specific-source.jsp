@@ -108,7 +108,7 @@
                     method: 'POST',
                     accepts: 'application/json',
                     contentType: 'application/json',
-                    url: "http://localhost:8080/admin/source/save-specific-source",
+                    url: "/admin/source/save-specific-source",
                     data: JSON.stringify(article),
                     success: function (result) {
                         $('#previewModal').modal('hide');
