@@ -42,13 +42,13 @@
                                 <c:forEach var="article" begin="1" items="${articles}">
                                 <div class="single-blog-post featured-post-2">
                                     <div class="post-thumb">
-                                        <a href="/detail?id=<c:out value="${article.id}"/>"><img src="<c:out value="${article.thumbnail}"/>" alt=""></a>
+                                        <a href="/post/<c:out value="${article.url}"/>"><img src="<c:out value="${article.thumbnail}"/>" alt=""></a>
                                     </div>
                                     <div class="post-data">
-                                        <a href="/detail?id=<c:out value="${article.id}"/>" class="post-catagory"><c:out
+                                        <a href="/post/<c:out value="${article.url}"/>" class="post-catagory"><c:out
                                                 value="${article.category.get().name}"/></a>
                                         <div class="post-meta">
-                                            <a href="/detail?id=<c:out value="${article.id}"/>" class="post-title">
+                                            <a href="/post/<c:out value="${article.url}"/>" class="post-title">
                                                 <h6><c:out value="${article.title}"/></h6>
                                             </a>
                                         </div>

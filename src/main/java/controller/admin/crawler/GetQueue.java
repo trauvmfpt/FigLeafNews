@@ -30,6 +30,7 @@ public class GetQueue extends HttpServlet {
         if (tasks.size() > 0) {
             TaskHandle taskHandle = tasks.get(0);
             String articleObjectJson = new String(taskHandle.getPayload());
+            System.out.println(articleObjectJson);
             Article article = new Gson().fromJson(articleObjectJson, Article.class);
             Source source = ofy().load().type(Source.class).id(article.getSourceId()).now();
             if (source == null) {

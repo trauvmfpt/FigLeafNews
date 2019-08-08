@@ -80,7 +80,7 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li class="active"><a href="index.html">Home</a></li>
+                                <li class="active"><a href="/">Home</a></li>
                                 <li><a href="#">Categories</a>
                                     <ul class="dropdown">
                                         <c:forEach var="cat" items="${cateNav}">
@@ -89,7 +89,7 @@
                                     </ul>
                                 </li>
                                 <c:forEach var="cat" items="${cateNav}">
-                                    <li><a href="/${cat.url}">${cat.name}</a></li>
+                                    <li><a href="/category/${cat.url}">${cat.name}</a></li>
                                 </c:forEach>
                                 <li><a href="/about-us">About-us</a></li>
                                 <li><a href="/contact">Contact</a></li>
