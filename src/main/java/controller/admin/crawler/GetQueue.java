@@ -4,7 +4,10 @@ import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
 import com.google.appengine.api.taskqueue.TaskHandle;
 import com.google.gson.Gson;
+import com.googlecode.objectify.Key;
+import com.googlecode.objectify.Ref;
 import entity.Article;
+import entity.Category;
 import entity.Source;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -45,8 +48,10 @@ public class GetQueue extends HttpServlet {
             article.setDescription(description);
             article.setContent(content);
             article.setUrl(MyUtil.getInstance().toSlug(title));
+            article.setCategory(Ref.create(Key.create(Category.class, article.getCategoryId())));
             article.setAuthor(author);
             ofy().save().entity(article).now();
+            q.deleteTask(taskHandle);
         }
     }
 }

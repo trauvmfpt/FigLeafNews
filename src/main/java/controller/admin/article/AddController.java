@@ -73,10 +73,8 @@ public class AddController extends HttpServlet {
                 .withDescription(description)
                 .withContent(content)
                 .withThumbnail("/" + pathname + newFileName)
-                .withCategory(Ref.create(Key.create(Category.class, categoryId)))
                 .build();
         ofy().save().entity(article).now();
         resp.sendRedirect("/admin/article/list");
-//        resp.getWriter().println("Okie");
     }
 }
