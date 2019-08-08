@@ -18,6 +18,7 @@ public class Category {
     private long updatedAtMLS;
     private long deletedAtMLS;
     private int status;
+    @Index
     private String url;
 
     public String getUrl() {

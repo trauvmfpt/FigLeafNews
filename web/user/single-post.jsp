@@ -24,7 +24,7 @@
                                 <a href="#"><img src="<c:out value="${article.thumbnail}"/>" alt=""></a>
                             </div>
                             <div class="post-data">
-                                <a href="#" class="post-catagory"><c:out
+                                <a href="/category/<c:out value="${article.category.get().url}"/>" class="post-catagory"><c:out
                                         value="${article.category.get().name}"/></a>
                                 <a href="#" class="post-title">
                                     <h6><c:out value="${article.title}"/></h6>

@@ -14,7 +14,9 @@ public class Article {
     private long id;
     @Index
     private String url;
+    @Index
     private String title;
+    @Index
     private String description;
     private String content;
     private String author;
