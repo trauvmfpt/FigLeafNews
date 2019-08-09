@@ -33,7 +33,7 @@
                     <div class="top-header-content d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html"><img src="user/img/core-img/logo.png" alt=""></a>
+                            <a href="index.html"><img src="/user/img/core-img/logo.png" alt=""></a>
                         </div>
 
                         <!-- Login Search Area -->
@@ -81,13 +81,13 @@
                         <div class="classynav">
                             <ul>
                                 <li class="active"><a href="/">Home</a></li>
-                                <li><a href="#">Categories</a>
-                                    <ul class="dropdown">
-                                        <c:forEach var="cat" items="${cateNav}">
-                                            <li><a href="/${cat.url}">${cat.name}</a></li>
-                                        </c:forEach>
-                                    </ul>
-                                </li>
+<%--                                <li><a href="#">Categories</a>--%>
+<%--                                    <ul class="dropdown">--%>
+<%--                                        <c:forEach var="cat" items="${cateNav}">--%>
+<%--                                            <li><a href="/${cat.url}">${cat.name}</a></li>--%>
+<%--                                        </c:forEach>--%>
+<%--                                    </ul>--%>
+<%--                                </li>--%>
                                 <c:forEach var="cat" items="${cateNav}">
                                     <li><a href="/category/${cat.url}">${cat.name}</a></li>
                                 </c:forEach>

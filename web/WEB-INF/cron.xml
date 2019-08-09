@@ -4,7 +4,7 @@
         <url>/admin/task/add</url>
         <target>crawler</target>
         <description>get index link only. (no detail)</description>
-        <schedule>every 1 minutes</schedule>
+        <schedule>every 12 hours</schedule>
     </cron>
     <cron>
         <url>/admin/task/get</url>

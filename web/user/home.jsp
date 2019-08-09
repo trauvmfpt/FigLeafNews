@@ -32,7 +32,7 @@
                                         <div class="post-meta">
                                             <p class="post-author">By <a href="#"><c:out value="${article.author}"/></a>
                                             </p>
-                                            <p class="post-excerp"><c:out value="${article.description}"/></p>
+                                            <p class="post-excerp">${article.description}</p>
                                         </div>
                                     </div>
                                 </div>
