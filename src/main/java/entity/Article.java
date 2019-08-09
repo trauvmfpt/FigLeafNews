@@ -27,6 +27,15 @@ public class Article {
     private long updatedAtMLS;
     private long deletedAtMLS;
     private int status;
+    private long categoryId;
+
+    public long getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(long categoryId) {
+        this.categoryId = categoryId;
+    }
 
     @Index
     @Load
@@ -158,6 +167,7 @@ public class Article {
         private long updatedAtMLS;
         private long deletedAtMLS;
         private int status;
+        private long categoryId;
 
         private Builder() {
             this.id = Calendar.getInstance().getTimeInMillis();
@@ -172,6 +182,11 @@ public class Article {
 
         public Builder withId(long id) {
             this.id = id;
+            return this;
+        }
+
+        public Builder withCategoryId(long categoryId) {
+            this.categoryId = categoryId;
             return this;
         }
 
@@ -249,6 +264,7 @@ public class Article {
             article.setUpdatedAtMLS(updatedAtMLS);
             article.setDeletedAtMLS(deletedAtMLS);
             article.setStatus(status);
+            article.setCategoryId(categoryId);
             article.setCategory(category);
             return article;
         }
