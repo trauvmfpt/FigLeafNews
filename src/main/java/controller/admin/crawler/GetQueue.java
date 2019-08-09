@@ -50,8 +50,16 @@ public class GetQueue extends HttpServlet {
             article.setUrl(MyUtil.getInstance().toSlug(title));
             article.setCategory(Ref.create(Key.create(Category.class, article.getCategoryId())));
             article.setAuthor(author);
-            ofy().save().entity(article).now();
-            q.deleteTask(taskHandle);
+            if (ofy().load().type(Article.class).filter("url",MyUtil.getInstance().toSlug(title)).list().size() == 0){
+                ofy().save().entity(article).now();
+                System.out.println("Add");
+                q.deleteTask(taskHandle);
+            }else {
+                System.out.println("This article already in Data Store");
+                q.deleteTask(taskHandle);
+                resp.sendRedirect("/admin/task/get");
+            }
+
         }
     }
 }
